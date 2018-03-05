@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Android" />
+        <module name="auth" />
+        <module name="CodeWars" />
+        <module name="demos" />
+        <module name="Essential" />
+        <module name="Exercise_03-1" />
+        <module name="Exercise_03-2" />
+        <module name="Exercise_04-1" />
+        <module name="Exercise_04-2" />
+        <module name="Exercise_05-1" />
+        <module name="Exercise_05-2" />
+        <module name="Exercise_05-3" />
+        <module name="Exercise_05-More" />
+        <module name="Exercise_06-1" />
+        <module name="Exercise_06-2" />
+        <module name="Exercise_06-3" />
+        <module name="Exercise_07-1" />
+        <module name="Exercise_07-2" />
+        <module name="Exercise_07-3" />
+        <module name="Exercise_08-1" />
+        <module name="Exercise_08-2" />
+        <module name="Exercise_16-practica" />
+        <module name="Exercise_Optional_01" />
+        <module name="lectia12ntc" />
+        <module name="lectia13n1" />
+        <module name="lectia14n1" />
+        <module name="lectia14tc" />
+        <module name="lectia14tc2" />
+        <module name="lectia15n1" />
+        <module name="lectia15tc1" />
+        <module name="lectia15tc2" />
+        <module name="lectia8n2" />
+        <module name="lectia8n3" />
+        <module name="lectia_12" />
+        <module name="Lectia_2TP" />
+        <module name="lesson_12" />
+        <module name="Mesto_peremen" />
+        <module name="Starter" />
+      </profile>
+      <profile name="Annotation profile for project" enabled="true">
+        <sourceOutputDir name="../auth/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../auth/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyCompany" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Android" target="1.8" />
+      <module name="auth" target="1.8" />
+      <module name="CodeWars" target="1.8" />
+      <module name="demos" target="1.8" />
+      <module name="Essential" target="1.8" />
+      <module name="Exercise_03-1" target="1.8" />
+      <module name="Exercise_03-2" target="1.8" />
+      <module name="Exercise_031" target="1.8" />
+      <module name="Exercise_04-1" target="1.8" />
+      <module name="Exercise_04-2" target="1.8" />
+      <module name="Exercise_05-1" target="1.8" />
+      <module name="Exercise_05-2" target="1.8" />
+      <module name="Exercise_05-3" target="1.8" />
+      <module name="Exercise_05-More" target="1.8" />
+      <module name="Exercise_06-1" target="1.8" />
+      <module name="Exercise_06-2" target="1.8" />
+      <module name="Exercise_06-3" target="1.8" />
+      <module name="Exercise_07-1" target="1.8" />
+      <module name="Exercise_07-2" target="1.8" />
+      <module name="Exercise_07-3" target="1.8" />
+      <module name="Exercise_08-1" target="1.8" />
+      <module name="Exercise_08-2" target="1.8" />
+      <module name="Exercise_16-practica" target="1.8" />
+      <module name="Exercise_Optional_01" target="1.8" />
+      <module name="kn" target="1.5" />
+      <module name="lectia12ntc" target="1.8" />
+      <module name="lectia13n1" target="1.8" />
+      <module name="lectia14n1" target="1.8" />
+      <module name="lectia14tc" target="1.8" />
+      <module name="lectia14tc2" target="1.8" />
+      <module name="lectia14tc2_main" target="1.8" />
+      <module name="lectia14tc2_test" target="1.8" />
+      <module name="lectia15n1" target="1.8" />
+      <module name="lectia15tc1" target="1.8" />
+      <module name="lectia15tc2" target="1.8" />
+      <module name="lectia3n1" target="1.5" />
+      <module name="lectia3n2" target="1.8" />
+      <module name="lectia4n1" target="1.8" />
+      <module name="lectia4n2" target="1.8" />
+      <module name="lectia5n1" target="1.8" />
+      <module name="lectia5n2" target="1.8" />
+      <module name="lectia5n3" target="1.8" />
+      <module name="lectia6n1" target="1.8" />
+      <module name="lectia6n2" target="1.8" />
+      <module name="lectia6n3" target="1.8" />
+      <module name="lectia7n1" target="1.8" />
+      <module name="lectia7n2" target="1.8" />
+      <module name="lectia7n3" target="1.8" />
+      <module name="lectia7n4" target="1.8" />
+      <module name="lectia8n1" target="1.8" />
+      <module name="lectia8n2" target="1.8" />
+      <module name="lectia8n3" target="1.8" />
+      <module name="lectia_12" target="1.8" />
+      <module name="Lectia_2TP" target="1.5" />
+      <module name="lesson_12" target="1.8" />
+      <module name="Matrix" target="1.8" />
+      <module name="Mesto_peremen" target="1.8" />
+      <module name="MyCompany" target="1.8" />
+      <module name="practicaY1AntiBoty" target="1.8" />
+      <module name="project" target="1.8" />
+      <module name="Spoj" target="1.8" />
+      <module name="Starter" target="1.8" />
+      <module name="Steaua" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

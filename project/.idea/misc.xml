@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Exercise_031/pom.xml" />
+        <option value="$PROJECT_DIR$/Matrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Spoj/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia14tc2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia3n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia4n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia4n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia5n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia5n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia5n3/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia6n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia6n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia6n3/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia7n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia7n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia7n3/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia7n4/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia8n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia_12/pom.xml" />
+        <option value="$PROJECT_DIR$/practicaY1AntiBoty/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
