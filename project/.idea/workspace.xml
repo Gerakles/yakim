@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/BasicOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/Max.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/Universal/universal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/XO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu4/GreenNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu4/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu5/RemovedNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu5/Solution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu5/SumOfK.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu5/SumSquaredDivisors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu5/WeightSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/ASum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/C.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Consecutives.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/FindIt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Kata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Kata3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Kata4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Keypad.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/Suite2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/SumDigPower.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/WhereIsMyParent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu6/WhichAreIn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Accumul.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/DivSeven.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Fighter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/JadenCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Kata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Kata2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Kata3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Money.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Opstrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/RowSumOddNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Square.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Summation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/TriangleTester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu7/Vowels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Dinglemouse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/EvenOrOdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Kata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Kata2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Kata3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Kata4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/RemoveChars.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CodeWars/target/classes/kyu8/Solution.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Essential/src/main/java/L3/A.java" afterPath="$PROJECT_DIR$/Essential/src/main/java/L3/A.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -185,8 +142,8 @@
       <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Essential/src/main/java/L3/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -557,6 +514,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -602,6 +561,15 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Essential" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="L4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -630,8 +598,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -964,6 +930,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -977,7 +944,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9392447" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540091" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35930407" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1374,8 +1341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Essential/src/main/java/L3/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
