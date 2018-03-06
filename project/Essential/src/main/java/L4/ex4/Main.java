@@ -11,7 +11,6 @@ class ConcreteClass extends AbstractClassB {
     public void operationA() {
         System.out.println("ConcreteClass.operationA");
     }
-
     @Override
     public void operationB() {
         System.out.println("ConcreteClass.operationB");
