@@ -4,7 +4,7 @@ public class A {
     static {
         System.out.println( "In static block1" );
     }
-    
+
     {
         System.out.println( "In block1" );
     }

@@ -1,4 +1,4 @@
-package L4;
+package L4.ex1;
 
 public abstract class Bird {
     public abstract void movie();
