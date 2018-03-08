@@ -24,7 +24,7 @@ public class Start {
                     String name = place[1];
                     String password = place[2];
                     User user = UserList.service.createUser( name, password );
-                    System.out.println( "Was created " + user );
+                    System.out.println( "Was created " + name +", "+password );
                     break;
                 case "info":
                     if (mp.getCarentUser() != null)
