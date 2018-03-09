@@ -34,4 +34,13 @@ public enum MyCompany {
     MyCompany(int value) {
         this.value = value;
     }
+
+    @Override
+    public String toString() {
+        return "company "+super.toString()+ ", salary" +getValue() +", "+getCurrency();
+    }
+    public int getValue() {
+        return value;
+    }
+    public abstract String getCurrency();
 }
