@@ -2,11 +2,11 @@ package L9;
 
 public class Car6 {
     private boolean booleanValue = true;
-    private char charValue = 'y';
+    private char charValue = 'd';
     private String stringValue = "Opana";
-    private long longValue = 1234567890L;
-    private float floatValue = 12345.67890F;
-    private double doubleValue = 12891.12348;
+    private long longValue = 1231234422L;
+    private float floatValue = 124412.21F;
+    private double doubleValue = 9873234.123;
     private byte[] arrayValue ={1,2,3,4};
 
     public Car6(String stringValue, long longValue, float floatValue) {
