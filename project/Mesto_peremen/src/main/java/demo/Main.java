@@ -13,7 +13,7 @@ public class Main {
             String a = String.format
                     ( "%8s", Integer.toBinaryString( b & 0xFF ) )
                     .replace( ' ', '0' );
-            //System.out.println( a );
+            //System.out.println( a ); // binary code
             num = a.replace( '0', '2' ).replace( '1', '0' ).replace( '2', '1' );
 
             //System.out.println(num);
