@@ -11,7 +11,7 @@ public class Cat {
         Cat cat1 = new Cat( "Barsik" );
         Cat cat2 = cat1;
 
-        if (cat1 == cat2) 
+        if (cat1 == cat2)
             System.out.println( "equals" );
          else
             System.out.println( "they're not equals" );

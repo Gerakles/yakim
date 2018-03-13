@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android/Android.iml" filepath="$PROJECT_DIR$/Android/Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeWars/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars/CodeWars.iml" />
       <module fileurl="file://$PROJECT_DIR$/Essential/Essential.iml" filepath="$PROJECT_DIR$/Essential/Essential.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_03-1/Exercise_03-1.iml" filepath="$PROJECT_DIR$/Exercise_03-1/Exercise_03-1.iml" />
