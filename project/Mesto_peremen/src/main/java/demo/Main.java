@@ -21,7 +21,7 @@ public class Main {
 
             Arrays.stream( num.split( "(?<=\\G.{8})" ) ).forEach( r -> sb.append( (char) Integer.parseInt( r, 2 ) ) );
             String out = sb.toString();
-            System.out.print( out );
+            System.out.print( out ); //result coding
         }
     }
 }
