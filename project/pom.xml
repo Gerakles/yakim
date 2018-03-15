@@ -42,6 +42,7 @@
         <module>demos</module>
         <module>Mesto_peremen</module>
         <module>Essential</module>
+        <module>Profesional</module>
     </modules>
     <packaging>pom</packaging>
 
