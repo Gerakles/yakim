@@ -5,7 +5,7 @@ public class DefaultValues {
         byte a;
         boolean b;
         char c;
-        String e;// На 10-й строке - ОШИБКА: Запрещается использование неинициализированной локальной переменной!
+        String e;// in 10 lines error:
 
         //System.out.println(a);
     }

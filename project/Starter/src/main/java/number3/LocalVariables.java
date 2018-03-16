@@ -13,7 +13,7 @@ public class LocalVariables {
         {
             int a=3;
             System.out.println(a);
-        }//System.out.println(a); - ОШИБКА: Переменная объявлена в локальной области и не существует за её пределами.
+        }//System.out.println(a); - error
 
     }
 }

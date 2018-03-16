@@ -16,13 +16,13 @@ public class preobrazovanie {
         int e = 128;    //  0000 0000   0000 0000   0000 0000   1000 0000  -  4 байта
         byte f = 0;     //                                      0000 0000  -  1 байт
         f = (byte) e;    //                                      0000 0001  -  1 байт
-        // f = e;       //  ОШИБКА.
+        // f = e;       //  error.
         System.out.println( "f = " + f );
         //преобразование значения типа - float в тип int
         float g = 10.5F;
         int h = 0;
         h = (int) g;
-        // h = g;       // ОШИБКА.
+        // h = g;       // error.
         System.out.println( "h = " + h );
         final int i = 127;
         byte j = 0;
@@ -35,12 +35,12 @@ public class preobrazovanie {
         final int m = 254;  //  0000 0000   0000 0000   0000 0000   1111 1110  -  4 байта
         byte n = 0;         //                                      0000 0000  -  1 байт
         n = (byte) m;        //                                      0000 0001  -  1 байт
-        // n = m;           //  ОШИБКА.
+        // n = m;           //  error.
         System.out.println( "n = " + n );
         final float o = 128.5f;
         byte p = 0;
         p = (byte) o;
-        // p = o;           //  ОШИБКА.
+        // p = o;           //  error.
         System.out.println( "p = " + p );
     }
 }

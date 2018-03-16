@@ -57,10 +57,10 @@ public class myYear {
                 System.out.print( " Мая 2018 года" );
                 break;
             case 6:
-                System.out.print( " Июня 2018 года" );
+                System.out.print( " June 2018 года" );
                 break;
             case 7:
-                System.out.print( " Июля 2018 года" );
+                System.out.print( " Jule 2018 года" );
                 break;
             case 8:
                 System.out.print( " Августа 2018 года" );

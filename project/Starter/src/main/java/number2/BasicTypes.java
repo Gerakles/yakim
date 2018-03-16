@@ -21,7 +21,7 @@ public class BasicTypes {
         double f1 = -0.123456789d;//Диапазон - от +/-5.0 x 10^-324 до +/-1.7 x 10^308
         double f2 = +1.123456789;
         //8-bits == 1 byte
-        boolean g1 = true;// Логическая величина Истина/Ложь
+        boolean g1 = true;// logic true/false
         boolean g2 = false;
         // 16-bits == 2 bytes
         char h1 = 'I';
