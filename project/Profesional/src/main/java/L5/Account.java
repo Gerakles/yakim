@@ -18,8 +18,9 @@ public class Account {
         else
             this.balance = 0;
     }
+
     public Account() {
-        this.balance=0;
+        this.balance = 0;
     }
 
     /**

@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L5/Account.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L5/Account.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -469,11 +471,11 @@
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L4/Cat.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L4/TestAnimals.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/Costumer.java" />
-        <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/Account.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/CheckingAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/Bank.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/TestAccount.java" />
+        <option value="$PROJECT_DIR$/Profesional/src/main/java/L5/Account.java" />
       </list>
     </option>
   </component>
@@ -908,7 +910,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9392447" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
