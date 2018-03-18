@@ -1,6 +1,6 @@
 package L6;
 
-public class TestAccount { //5.29
+public class TestAccount { //5
     public static void main(String[] args) {
         Bank bank = Bank.getBank();
         Costumer first = new Costumer( "John Doe" );
