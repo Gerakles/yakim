@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L6/TestAccount.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L6/TestAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/test/java/L6/BankTest.java" afterPath="$PROJECT_DIR$/Profesional/src/test/java/L6/BankTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L6/TestAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -1409,7 +1408,7 @@
     <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L6/TestAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>
