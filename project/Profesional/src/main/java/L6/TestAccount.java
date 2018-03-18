@@ -1,4 +1,4 @@
-package L5;
+package L6;
 
 public class TestAccount { //5.29
     public static void main(String[] args) {
@@ -17,10 +17,16 @@ public class TestAccount { //5.29
         displayCustomer( bank );
 
         bank.getCostumers( 0 ).getAccount( 0 ).deposit( 2000 );
-        bank.getCostumers( 0 ).getAccount( 1 ).withdraw( 5500 );
+        try {
+            bank.getCostumers( 0 ).getAccount( 1 ).withdraw( 7500 );
+        } catch (OverDraftException oe) {
+            System.out.println( oe.getMessage() + ": $ " + oe.getDeficit() + "!" );
+        } catch (Exception e) {
+            System.out.println( "Somthing went wrong" + e.getMessage() );
+        }
         ((SavingsAccount) bank.getCostumers( 0 ).getAccount( 0 )).addInterestRate();
 
-        System.out.println("_______________________________");
+        System.out.println( "_______________________________" );
         displayCustomer( bank );
     }
 
