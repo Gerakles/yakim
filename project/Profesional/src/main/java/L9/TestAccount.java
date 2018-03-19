@@ -1,6 +1,6 @@
 package L9;
 
-public class TestAccount { //10.322 kb
+public class TestAccount { //12.394 kb
     public static void main(String[] args) {
         Bank bank = Bank.getBank();
         Costumer first = new Costumer( "John", "Doe" );

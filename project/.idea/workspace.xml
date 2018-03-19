@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesto_peremen/target/classes/demo/Main.class" afterPath="$PROJECT_DIR$/Mesto_peremen/target/classes/demo/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/target/classes/L8/CustomerReport.class" afterPath="$PROJECT_DIR$/Profesional/target/classes/L8/CustomerReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Main.java" afterPath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L8/CustomerReport.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L8/CustomerReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L8/TestAccount.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L8/TestAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../db/test.dat" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L9/test.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,13 +109,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestReport.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestReport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L10/TestReport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankChat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankChat.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -410,8 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Profesional/src/main/java/L6/CheckingAccount.java" />
-        <option value="$PROJECT_DIR$/Profesional/src/main/java/L6/OverDraftException.java" />
         <option value="$PROJECT_DIR$/Profesional/src/test/java/L6/AccountTest.java" />
         <option value="$PROJECT_DIR$/Profesional/src/test/java/L6/CheckingAccountTest.java" />
         <option value="$PROJECT_DIR$/Profesional/src/test/java/L6/CostumerTest.java" />
@@ -441,7 +460,6 @@
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/Bank.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L8/CustomerReport.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/OverDraftException.java" />
-        <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/TestReport.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/AccumulateSavingsBatch.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/SavingsAccount.java" />
@@ -461,6 +479,9 @@
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/TestAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/TestReport.java" />
+        <option value="$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java" />
+        <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.form" />
+        <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.java" />
       </list>
     </option>
   </component>
@@ -545,6 +566,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="L10" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Profesional" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="L10" type="462c0819:PsiDirectoryNode" />
+              <item name="BankChat" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -563,6 +594,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="201" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -935,7 +967,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7848933" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48604268" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48604268" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9392447" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -988,20 +1020,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/test/java/MaxSequenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Profesional/src/test/java/L6/BankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L6/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1192,14 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1399,6 +1409,27 @@
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L9/TestAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L10/BankChat.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
