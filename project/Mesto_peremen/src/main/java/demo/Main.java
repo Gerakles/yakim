@@ -12,6 +12,7 @@ public class Main {
             String s = sc.nextLine();
             for (byte b : s.getBytes()) {
                 String a = String.format
+
                         ( "%8s", Integer.toBinaryString( b & 0xFF ) )
                         .replace( ' ', '0' );
                 //System.out.println( a ); // binary code
