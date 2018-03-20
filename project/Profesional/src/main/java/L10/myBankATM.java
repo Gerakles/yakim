@@ -2,7 +2,7 @@ package L10;
 
 import javax.swing.*;
 
-public class myBankATM {
+public class myBankATM {  //14.356 kb
     private JPanel panel1;
     private JButton balanceButton;
     private JButton withdrawButton;
