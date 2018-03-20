@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Alan_Tiuring {//1.01kb
+
     public static void main(String[] args) {
         String num = null;
         String num2 = null;
@@ -23,6 +24,9 @@ public class Alan_Tiuring {//1.01kb
 
                 Arrays.stream( num.split( "(?<=\\G.{8})" ) ).forEach( r -> sb.append( (char) Integer.parseInt( r, 2 ) ) );
                 String out = sb.toString();
+                out = out.replaceAll( "=", "" )
+                        .replaceAll( "<", " " )
+                        .replaceAll( "`", " " );
                 System.out.print( out ); //result coding
             }
         }
