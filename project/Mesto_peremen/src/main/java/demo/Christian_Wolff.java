@@ -2,7 +2,7 @@ package demo;
 
 import java.util.Scanner;
 
-public class Christian_Wolff {
+public class Christian_Wolff { //2.72 kb
     public static void main(String[] args) {
         Scanner cw = new Scanner( System.in );
         while (cw.hasNext()) {

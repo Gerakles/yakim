@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mesto_peremen/target/classes/demo/Main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L10/myBankATM.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L10/myBankATM.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Main.java" afterPath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java" afterPath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Christian_Wolff.java" afterPath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Christian_Wolff.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,8 +113,8 @@
       <file leaf-file-name="Alan_Tiuring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -125,18 +123,8 @@
       <file leaf-file-name="Christian_Wolff.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Christian_Wolff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/XO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -427,7 +415,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Profesional/src/test/java/L6/BankTest.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L6/TestAccount.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L7/Account.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L7/CheckingAccount.java" />
@@ -477,6 +464,7 @@
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/myBankATM.form" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L10/myBankATM.java" />
         <option value="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Main.java" />
+        <option value="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java" />
         <option value="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Christian_Wolff.java" />
       </list>
     </option>
@@ -1285,14 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/XO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1301,10 +1281,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Alan_Tiuring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Christian_Wolff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
