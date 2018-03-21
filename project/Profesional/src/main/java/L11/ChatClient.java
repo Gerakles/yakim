@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class ChatClient {
+public class ChatClient { //1.75 kb
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;

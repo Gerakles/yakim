@@ -1,4 +1,4 @@
-package L11;
+package L12;
 
 class MyClass3 {
     public <T> void method(T arg) {

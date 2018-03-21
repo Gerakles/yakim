@@ -1,4 +1,4 @@
-package L11;
+package L12;
 
 interface Interf1 {
 }

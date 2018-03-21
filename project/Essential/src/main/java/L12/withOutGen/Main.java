@@ -1,24 +1,28 @@
-package L11.WithGen;
+package L12.withOutGen;
 
 public class Main {
     public static void main(String[] args) {
-        WithGen<String> w1 = new WithGen <>( "test" );
-        WithGen<Integer> w2 = new WithGen <>( 10 );
-        WithGen<Cat> w3 = new WithGen <>( new Cat( "Marsel" ) );
+        WithOutGen w1 = new WithOutGen( "test" );
+        WithOutGen w2 = new WithOutGen( 10 );
+        WithOutGen w3 = new WithOutGen( new Cat( "Marsel" ) );
 
         w1.display();
         w2.display();
         w3.display();
     }
 }
-class WithGen <T> {
-    T obj;
+class WithOutGen  {
+    Object obj;
 
-    public WithGen(T obj) {
+    public WithOutGen(Object obj) {
         this.obj = obj;
     }
     void display() {
         System.out.println(obj);
+    }
+
+    public Object getObj() {
+        return obj;
     }
 }
 class Cat {

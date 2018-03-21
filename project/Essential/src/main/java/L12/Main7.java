@@ -1,4 +1,4 @@
-package L11;
+package L12;
 class Base {
 }
 class Derived extends Base {

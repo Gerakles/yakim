@@ -1,4 +1,4 @@
-package L11;
+package L12;
 
 class MyGenerics <TYPE1, TYPE2> {
     public TYPE1 var1;
