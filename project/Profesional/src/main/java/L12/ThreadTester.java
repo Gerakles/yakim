@@ -1,6 +1,6 @@
 package L12;
 
-public class ThreadTester {
+public class ThreadTester { //918 b
     public static void main(String[] args) {
         Runnable prog = new Printme();
         Thread thread = new Thread( prog );
