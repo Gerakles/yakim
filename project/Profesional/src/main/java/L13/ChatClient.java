@@ -1,20 +1,18 @@
 package L13;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.net.Socket;
+import javax.swing.*;
+import java.net.*;
+import java.io.*;
 
 public class ChatClient { //1.75 kb
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
     private JButton quitButtoun;
+
     private Socket connection = null;
     private BufferedReader serverIn = null;
     private PrintStream serverOut = null;
@@ -24,11 +22,6 @@ public class ChatClient { //1.75 kb
         this.input = new JTextField( 50 );
         this.sendButton = new JButton( "Send" );
         this.quitButtoun = new JButton( "Quite" );
-    }
-
-    public static void main(String[] args) {
-        ChatClient myChat = new ChatClient();
-        myChat.launchFrame();
     }
 
     private void doConect() {
@@ -58,7 +51,6 @@ public class ChatClient { //1.75 kb
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout( new GridLayout( 2, 1 ) );
-
         buttonPanel.add( sendButton );
         buttonPanel.add( quitButtoun );
 
@@ -76,6 +68,10 @@ public class ChatClient { //1.75 kb
 
         doConect();
     }
+    public static void main(String[] args) {
+        ChatClient myChat = new ChatClient();
+        myChat.launchFrame();
+    }
 
     private class SendHandler implements ActionListener {
 
@@ -83,7 +79,7 @@ public class ChatClient { //1.75 kb
         public void actionPerformed(ActionEvent e) {
             String message = input.getText();
             //output.append( message + "\n" );
-            serverOut.print( "New message: " + message );
+            serverOut.print( "New message: " + message +"\n");
             input.setText( "" );
         }
     }
