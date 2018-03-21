@@ -59,6 +59,7 @@ public class Gui_yakim { //2.4 kb
                 String local2 = input.getText();
                 if (local2.equals( b )) {
                     output.append( local2+"\n"+"VERY GOOD" );
+                    input.setText( "" );
                 } else
                     output.append( "GAME OVER" );
             } else
