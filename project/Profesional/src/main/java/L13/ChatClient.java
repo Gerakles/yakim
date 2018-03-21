@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.net.*;
 import java.io.*;
 
-public class ChatClient { //1.75 kb
+public class ChatClient { //52.14 kb
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
