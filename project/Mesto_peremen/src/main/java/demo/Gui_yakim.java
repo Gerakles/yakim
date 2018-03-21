@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Gui_yakim {
+public class Gui_yakim { //2.4 kb
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;

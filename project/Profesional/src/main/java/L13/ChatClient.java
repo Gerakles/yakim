@@ -1,21 +1,52 @@
 package L13;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.Socket;
 
 public class ChatClient { //1.75 kb
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
     private JButton quitButtoun;
+    private Socket connection = null;
+    private BufferedReader serverIn = null;
+    private PrintStream serverOut = null;
 
     public ChatClient() {
         this.output = new JTextArea( 10, 50 );
         this.input = new JTextField( 50 );
         this.sendButton = new JButton( "Send" );
         this.quitButtoun = new JButton( "Quite" );
+    }
+
+    public static void main(String[] args) {
+        ChatClient myChat = new ChatClient();
+        myChat.launchFrame();
+    }
+
+    private void doConect() {
+        String serverIP = System.getProperty( "serverIP", "127.0.0.1" );
+        String serverPort = System.getProperty( "serverPort", "2000" );
+
+        try {
+            connection = new Socket( serverIP, Integer.parseInt( serverPort ) );
+            InputStream is = connection.getInputStream();
+            InputStreamReader isr = new InputStreamReader( is );
+            serverIn = new BufferedReader( isr );
+            serverOut = new PrintStream( connection.getOutputStream() );
+            Thread t = new Thread( new RemoteReader() );
+            t.start();
+        } catch (Exception e) {
+            System.err.println( "ERROR: unable to connect to server!" );
+            e.printStackTrace();
+        }
     }
 
     public void launchFrame() {
@@ -25,13 +56,13 @@ public class ChatClient { //1.75 kb
         frame.add( output, BorderLayout.CENTER );
         frame.add( input, BorderLayout.SOUTH );
 
-        JPanel buttonPanel = new JPanel(  );
-        buttonPanel.setLayout( new GridLayout( 2,1 ) );
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout( new GridLayout( 2, 1 ) );
 
         buttonPanel.add( sendButton );
         buttonPanel.add( quitButtoun );
 
-        frame.add( buttonPanel,BorderLayout.EAST );
+        frame.add( buttonPanel, BorderLayout.EAST );
         input.addActionListener( new SendHandler() );
         sendButton.addActionListener( new SendHandler() );
         quitButtoun.addActionListener( e -> System.exit( 0 ) );
@@ -42,11 +73,8 @@ public class ChatClient { //1.75 kb
         frame.setAlwaysOnTop( true );
         frame.setLocationRelativeTo( null );
         output.setEditable( false );
-    }
 
-    public static void main(String[] args) {
-        ChatClient myChat = new ChatClient();
-        myChat.launchFrame();
+        doConect();
     }
 
     private class SendHandler implements ActionListener {
@@ -54,8 +82,24 @@ public class ChatClient { //1.75 kb
         @Override
         public void actionPerformed(ActionEvent e) {
             String message = input.getText();
-            output.append( message+"\n" );
+            //output.append( message + "\n" );
+            serverOut.print( "New message: " + message );
             input.setText( "" );
+        }
+    }
+
+    private class RemoteReader implements Runnable {
+        @Override
+        public void run() {
+            try {
+                while (true) {
+                    String nextLine = serverIn.readLine();
+                    output.append( nextLine+"\n" );
+                }
+            } catch (Exception e) {
+                System.err.println( "ERROR: can't read from the server");
+                e.printStackTrace();
+            }
         }
     }
 }

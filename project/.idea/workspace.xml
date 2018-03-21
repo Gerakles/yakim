@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L12/ThreadTester.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L12/ThreadTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java" afterPath="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java" afterPath="$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,11 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L13/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -494,12 +494,12 @@
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L11/ChatClient.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L12/Printme.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L12/ThreadTester.java" />
-        <option value="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java" />
-        <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/ChatServer.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/Connection.java" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/hosts" />
         <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/hosts.txt" />
+        <option value="$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java" />
+        <option value="$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java" />
       </list>
     </option>
   </component>
@@ -547,6 +547,41 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -1223,32 +1258,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L11/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="61" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1289,6 +1304,24 @@
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1199#1200#0" expanded="true" />
             <element signature="e#1248#1249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/demo/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Profesional/src/main/java/L13/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
