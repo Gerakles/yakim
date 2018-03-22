@@ -64,7 +64,7 @@ public class Gui_yakim { //2.4 kb
                         e1.printStackTrace();
                     }
                 } else {
-                    output.append( " GAME OVER "+"\n" );
+                    output.append( " GAME OVER " + "\n" );
                     output.append( "ANSWER: " + randomValue + "\n" );
                     input.setText( "" );
                     break;
