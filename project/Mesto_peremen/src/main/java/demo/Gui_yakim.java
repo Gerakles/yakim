@@ -6,14 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Gui_yakim { //2.4 kb
+public class Gui_yakim { //2.38 kb
     private static int iter = 1;
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
 
     public Gui_yakim() {
-        output = new JTextArea( "Level 1. Write number at 1 ",20, 10 );
+        output = new JTextArea( "Level 1. Write number 1 ", 20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "Start" );
     }
