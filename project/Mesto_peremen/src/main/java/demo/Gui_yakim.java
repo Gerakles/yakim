@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Gui_yakim { //2.4 kb
     private JTextArea output;
@@ -47,24 +48,27 @@ public class Gui_yakim { //2.4 kb
     private class Nums implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            Random rn = new Random();
+            Random random = new Random(  );
 
-            int aa = rn.nextInt( 1 ) + 1;
-            int ab = rn.nextInt( 2 ) + 1;
-            String a = Integer.toString( aa );
-            String b = Integer.toString( ab );
-            String local1 = input.getText();
-            if (local1.equals( a )) {
-                output.append( local1 + "\n" + "GOOD & level 2: " );
-                input.setText( "" );
-                String local2 = input.getText();
-                if (local2.equals( b )) {
-                    output.append( local2 + "\n" + "VERY GOOD" );
-                    input.setText( "" );
-                } else
-                    output.append( "GAME OVER" );
-            } else
-                output.append( "GAME OVER" );
+            for (int i = 1; i <10 ; i++) {
+                output.append(String.format( "LEVEL %s : ", i ));
+                String keyValues = input.getText();
+                int keyValue = Integer.parseInt( keyValues );
+
+                int randomValue = random.nextInt(i) +1;
+                if (keyValue ==randomValue) {
+                    output.append("GOOD");
+                    try {
+                        Thread.sleep( 800 );
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
+                } else {
+                    output.append("GAME OVER");
+                    output.append("ANSWER "+random);
+                    break;
+                }
+            }
         }
     }
 
