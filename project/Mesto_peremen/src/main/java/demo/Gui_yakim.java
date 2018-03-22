@@ -7,12 +7,13 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class Gui_yakim { //2.4 kb
+    private static int iter = 1;
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
 
     public Gui_yakim() {
-        output = new JTextArea( 20, 10 );
+        output = new JTextArea( "Level 1. Write number at 1 ",20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "Start" );
     }
@@ -35,7 +36,7 @@ public class Gui_yakim { //2.4 kb
         frame.add( buttonpanel, BorderLayout.EAST );
         input.addActionListener( new Nums() );
         sendButton.addActionListener( new SendHandler() );
-        frame.pack();
+        frame.setSize( 400, 300 );
         frame.setVisible( true );
         frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
         frame.setAlwaysOnTop( true );
@@ -47,27 +48,19 @@ public class Gui_yakim { //2.4 kb
         @Override
         public void actionPerformed(ActionEvent e) {
             Random random = new Random();
+            int target = random.nextInt( iter ) + 1;
+            iter++;
 
-            for (int i = 1; i < 10; i++) {
-                String keyValues = input.getText();
-                output.append( String.format( "LEVEL %s : " + keyValues, i ) );
-                int keyValue = Integer.parseInt( keyValues );
+            Integer keyValue = Integer.parseInt( input.getText() );
+            String temp = String.format( "Leve %s. Write number at 1 to %s ", iter, iter );
 
-                int randomValue = random.nextInt( i ) + 1;
-                if (keyValue == randomValue) {
-                    output.append( " GOOD " );
-                    output.append( "\n" );
-                    try {
-                        Thread.sleep( 800 );
-                    } catch (InterruptedException e1) {
-                        e1.printStackTrace();
-                    }
-                } else {
-                    output.append( " GAME OVER " + "\n" );
-                    output.append( "ANSWER: " + randomValue + "\n" );
-                    input.setText( "" );
-                    break;
-                }
+            if (keyValue == target) {
+                output.append( "........" + keyValue + " - Good! \n" );
+                output.append( temp );
+                input.setText( "" );
+            } else {
+                output.append( "........" + keyValue + " - Game over! \n" );
+                output.append( "Answer : " + target );
             }
         }
     }
