@@ -5,7 +5,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Gui_yakim { //2.4 kb
     private JTextArea output;
@@ -13,7 +12,7 @@ public class Gui_yakim { //2.4 kb
     private JButton sendButton;
 
     public Gui_yakim() {
-        output = new JTextArea( "Level 1 write number at 1 to 1: ", 20, 10 );
+        output = new JTextArea( 20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "Start" );
     }
@@ -48,24 +47,26 @@ public class Gui_yakim { //2.4 kb
     private class Nums implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            Random random = new Random(  );
+            Random random = new Random();
 
-            for (int i = 1; i <10 ; i++) {
-                output.append(String.format( "LEVEL %s : ", i ));
+            for (int i = 1; i < 10; i++) {
                 String keyValues = input.getText();
+                output.append( String.format( "LEVEL %s : " + keyValues, i ) );
                 int keyValue = Integer.parseInt( keyValues );
 
-                int randomValue = random.nextInt(i) +1;
-                if (keyValue ==randomValue) {
-                    output.append("GOOD");
+                int randomValue = random.nextInt( i ) + 1;
+                if (keyValue == randomValue) {
+                    output.append( " GOOD " );
+                    output.append( "\n" );
                     try {
                         Thread.sleep( 800 );
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     }
                 } else {
-                    output.append("GAME OVER");
-                    output.append("ANSWER "+random);
+                    output.append( " GAME OVER "+"\n" );
+                    output.append( "ANSWER: " + randomValue + "\n" );
+                    input.setText( "" );
                     break;
                 }
             }
