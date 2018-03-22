@@ -35,7 +35,6 @@ public class Gui_yakim { //2.4 kb
         frame.add( buttonpanel, BorderLayout.EAST );
         input.addActionListener( new Nums() );
         sendButton.addActionListener( new SendHandler() );
-
         frame.pack();
         frame.setVisible( true );
         frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
@@ -74,7 +73,6 @@ public class Gui_yakim { //2.4 kb
     }
 
     private class SendHandler implements ActionListener {
-
         @Override
         public void actionPerformed(ActionEvent e) {
             String message = input.getText();
@@ -83,4 +81,3 @@ public class Gui_yakim { //2.4 kb
         }
     }
 }
-
