@@ -12,9 +12,14 @@ public class Gui_yakim { //2.4 kb
     private JButton sendButton;
 
     public Gui_yakim() {
-        output = new JTextArea( "Level 1 write number at 1 to 1: ", 20,10);
+        output = new JTextArea( "Level 1 write number at 1 to 1: ", 20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "Start" );
+    }
+
+    public static void main(String[] args) {
+        Gui_yakim yakim = new Gui_yakim();
+        yakim.begins();
     }
 
     public void begins() {
@@ -38,12 +43,8 @@ public class Gui_yakim { //2.4 kb
         frame.setLocationRelativeTo( null );
         output.setEditable( false );
     }
-    public static void main(String[] args) {
-        Gui_yakim yakim = new Gui_yakim();
-        yakim.begins();
-    }
 
-    private class Nums implements ActionListener{
+    private class Nums implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             Random rn = new Random();
@@ -54,11 +55,11 @@ public class Gui_yakim { //2.4 kb
             String b = Integer.toString( ab );
             String local1 = input.getText();
             if (local1.equals( a )) {
-                output.append( local1 +"\n"+"GOOD & level 2: ");
+                output.append( local1 + "\n" + "GOOD & level 2: " );
                 input.setText( "" );
                 String local2 = input.getText();
                 if (local2.equals( b )) {
-                    output.append( local2+"\n"+"VERY GOOD" );
+                    output.append( local2 + "\n" + "VERY GOOD" );
                     input.setText( "" );
                 } else
                     output.append( "GAME OVER" );
