@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Gui_yakim { //2.38 kb
+public class Gui_yakim { //2.88 kb
     private static int iter = 1;
     private JTextArea output;
     private JTextField input;
@@ -15,7 +15,7 @@ public class Gui_yakim { //2.38 kb
     private Gui_yakim() {
         output = new JTextArea( "Level 1. Write number 1 ", 20, 10 );
         input = new JTextField( 20 );
-        sendButton = new JButton( "Restart" );
+        sendButton = new JButton( "" );
     }
 
     public static void main(String[] args) {
@@ -36,17 +36,21 @@ public class Gui_yakim { //2.38 kb
         Color gray2 = new Color( 151, 154, 154 );
         output.setBackground( gray1 );
         output.setForeground( yellow );
-        input.setBackground( gray2 );
+        input.setBackground( gray1 );
         input.setForeground( Color.WHITE );
+        sendButton.setBorderPainted(false);
+        sendButton.setFocusPainted(false);
+        sendButton.setBackground( gray1 );
+        sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Mesto_peremen\\src\\main\\java\\demo\\n.png" ) );
 
         JPanel buttonpanel = new JPanel();
         buttonpanel.setLayout( new GridLayout( 1, 1 ) );
         buttonpanel.add( sendButton );
 
-        frame.add( buttonpanel, BorderLayout.EAST );
+        frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
         sendButton.addActionListener( new Restarts() );
-        frame.setSize( 400, 300 );
+        frame.setSize( 350, 300 );
         frame.setVisible( true );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setAlwaysOnTop( true );
@@ -72,8 +76,7 @@ public class Gui_yakim { //2.38 kb
             } else {
                 output.append( "........" + keyValue + " - Game over! \n" );
                 output.append( "Answer : " + target );
-                output.setText( null );
-                input.setText( "" );
+                input.setEnabled(false);
             }
         }
     }
@@ -81,9 +84,9 @@ public class Gui_yakim { //2.38 kb
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText( null );
-            output.setText( "Level 1. Write number 1 " );
-            input.addActionListener( new Nums() );
+            output.setText("Level 1. Write number 1 ");
+            input.setEnabled(true);
+            iter = 1;
         }
     }
 }

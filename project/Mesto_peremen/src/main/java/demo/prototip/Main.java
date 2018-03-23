@@ -1,4 +1,4 @@
-package demo.demo;
+package demo.prototip;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
