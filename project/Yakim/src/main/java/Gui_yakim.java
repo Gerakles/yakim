@@ -36,8 +36,8 @@ public class Gui_yakim { //3.05 kb
         output.setForeground( yellow );
         input.setBackground( gray1 );
         input.setForeground( Color.WHITE );
-        sendButton.setBorderPainted(false);
-        sendButton.setFocusPainted(false);
+        sendButton.setBorderPainted( false );
+        sendButton.setFocusPainted( false );
         sendButton.setBackground( gray1 );
         sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Yakim\\src\\main\\java\\n.png" ) );
 
@@ -74,7 +74,7 @@ public class Gui_yakim { //3.05 kb
             } else {
                 output.append( "........" + keyValue + " - Game over! \n" );
                 output.append( "Answer : " + target );
-                input.setEnabled(false);
+                input.setEnabled( false );
             }
         }
     }
@@ -82,8 +82,8 @@ public class Gui_yakim { //3.05 kb
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText("Level 1. Write number 1 ");
-            input.setEnabled(true);
+            output.setText( "Level 1. Write number 1 " );
+            input.setEnabled( true );
             iter = 1;
         }
     }
