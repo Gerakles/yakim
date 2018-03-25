@@ -8,28 +8,11 @@
     <artifactId>project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Exercise_07-1</module>
-        <module>Exercise_07-2</module>
-        <module>Exercise_07-3</module>
-        <module>Exercise_08-1</module>
-        <module>lesson_12</module>
-        <module>lectia8n2</module>
-        <module>lectia8n3</module>
-        <module>lectia12ntc</module>
-        <module>lectia13n1</module>
-        <module>lectia14n1</module>
-        <module>lectia14tc2</module>
-        <module>lectia15n1</module>
-        <module>lectia15tc1</module>
-        <module>lectia15tc2</module>
-        <module>Starter</module>
-        <module>Exercise_08-2</module>
-        <module>Exercise_16-practica</module>
-        <module>Exercise_Optional_01</module>
         <module>CodeWars</module>
         <module>Mesto_peremen</module>
-        <module>Essential</module>
-        <module>Profesional</module>
+        <module>ITDVN</module>
+        <module>Yakim</module>
+        <module>Demo</module>
     </modules>
     <packaging>pom</packaging>
 

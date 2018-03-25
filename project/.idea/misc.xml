@@ -26,6 +26,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Essential/pom.xml" />
         <option value="$PROJECT_DIR$/Exercise_03-1/pom.xml" />
         <option value="$PROJECT_DIR$/Exercise_03-2/pom.xml" />
         <option value="$PROJECT_DIR$/Exercise_031/pom.xml" />
@@ -38,11 +39,25 @@
         <option value="$PROJECT_DIR$/Exercise_06-1/pom.xml" />
         <option value="$PROJECT_DIR$/Exercise_06-2/pom.xml" />
         <option value="$PROJECT_DIR$/Exercise_06-3/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_07-1/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_07-2/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_07-3/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_08-2/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_16-practica/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise_Optional_01/pom.xml" />
         <option value="$PROJECT_DIR$/Matrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Profesional/pom.xml" />
         <option value="$PROJECT_DIR$/Spoj/pom.xml" />
+        <option value="$PROJECT_DIR$/Starter/pom.xml" />
         <option value="$PROJECT_DIR$/auth/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia12ntc/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia13n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia14n1/pom.xml" />
         <option value="$PROJECT_DIR$/lectia14tc/pom.xml" />
         <option value="$PROJECT_DIR$/lectia14tc2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia15n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia15tc1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia15tc2/pom.xml" />
         <option value="$PROJECT_DIR$/lectia3n2/pom.xml" />
         <option value="$PROJECT_DIR$/lectia4n1/pom.xml" />
         <option value="$PROJECT_DIR$/lectia4n2/pom.xml" />
@@ -57,7 +72,10 @@
         <option value="$PROJECT_DIR$/lectia7n3/pom.xml" />
         <option value="$PROJECT_DIR$/lectia7n4/pom.xml" />
         <option value="$PROJECT_DIR$/lectia8n1/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia8n2/pom.xml" />
+        <option value="$PROJECT_DIR$/lectia8n3/pom.xml" />
         <option value="$PROJECT_DIR$/lectia_12/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_12/pom.xml" />
         <option value="$PROJECT_DIR$/practicaY1AntiBoty/pom.xml" />
       </set>
     </option>

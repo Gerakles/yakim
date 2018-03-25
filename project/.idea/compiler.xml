@@ -8,31 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Android" />
         <module name="CodeWars" />
-        <module name="Essential" />
-        <module name="Exercise_07-1" />
-        <module name="Exercise_07-2" />
-        <module name="Exercise_07-3" />
-        <module name="Exercise_08-1" />
-        <module name="Exercise_08-2" />
-        <module name="Exercise_16-practica" />
-        <module name="Exercise_Optional_01" />
-        <module name="Home" />
-        <module name="lectia12ntc" />
-        <module name="lectia13n1" />
-        <module name="lectia14n1" />
-        <module name="lectia14tc2" />
-        <module name="lectia15n1" />
-        <module name="lectia15tc1" />
-        <module name="lectia15tc2" />
-        <module name="lectia8n2" />
-        <module name="lectia8n3" />
+        <module name="Demo" />
+        <module name="ITDVN" />
         <module name="lectia_12" />
-        <module name="Lectia_2TP" />
-        <module name="lesson_12" />
         <module name="Mesto_peremen" />
-        <module name="Profesional" />
-        <module name="Starter" />
         <module name="Tekwill" />
+        <module name="Yakim" />
       </profile>
       <profile name="Annotation profile for project" enabled="true">
         <sourceOutputDir name="../auth/target/generated-sources/annotations" />
@@ -45,6 +26,7 @@
       <module name="Android" target="1.8" />
       <module name="auth" target="1.8" />
       <module name="CodeWars" target="1.8" />
+      <module name="Demo" target="1.8" />
       <module name="demos" target="1.8" />
       <module name="Essential" target="1.8" />
       <module name="Exercise_03-1" target="1.5" />
@@ -67,6 +49,7 @@
       <module name="Exercise_16-practica" target="1.8" />
       <module name="Exercise_Optional_01" target="1.8" />
       <module name="Home" target="1.8" />
+      <module name="ITDVN" target="1.8" />
       <module name="kn" target="1.5" />
       <module name="lectia12ntc" target="1.8" />
       <module name="lectia13n1" target="1.8" />
@@ -109,6 +92,7 @@
       <module name="Starter" target="1.8" />
       <module name="Steaua" target="1.5" />
       <module name="Tekwill" target="1.8" />
+      <module name="Yakim" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
