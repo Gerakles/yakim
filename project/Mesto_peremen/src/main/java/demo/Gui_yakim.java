@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Gui_yakim { //2.88 kb
+public class Gui_yakim { //3.05 kb
     private static int iter = 1;
     private JTextArea output;
     private JTextField input;

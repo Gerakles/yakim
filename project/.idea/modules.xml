@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tekwill/Autentification.iml" filepath="$PROJECT_DIR$/Tekwill/Autentification.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeWars/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars/CodeWars.iml" />
       <module fileurl="file://$PROJECT_DIR$/Essential/Essential.iml" filepath="$PROJECT_DIR$/Essential/Essential.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_03-1/Exercise_03-1.iml" filepath="$PROJECT_DIR$/Exercise_03-1/Exercise_03-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_03-2/Exercise_03-2.iml" filepath="$PROJECT_DIR$/Exercise_03-2/Exercise_03-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_04-1/Exercise_04-1.iml" filepath="$PROJECT_DIR$/Exercise_04-1/Exercise_04-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_04-2/Exercise_04-2.iml" filepath="$PROJECT_DIR$/Exercise_04-2/Exercise_04-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_05-1/Exercise_05-1.iml" filepath="$PROJECT_DIR$/Exercise_05-1/Exercise_05-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_05-2/Exercise_05-2.iml" filepath="$PROJECT_DIR$/Exercise_05-2/Exercise_05-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_05-3/Exercise_05-3.iml" filepath="$PROJECT_DIR$/Exercise_05-3/Exercise_05-3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_05-More/Exercise_05-More.iml" filepath="$PROJECT_DIR$/Exercise_05-More/Exercise_05-More.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_06-1/Exercise_06-1.iml" filepath="$PROJECT_DIR$/Exercise_06-1/Exercise_06-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_06-2/Exercise_06-2.iml" filepath="$PROJECT_DIR$/Exercise_06-2/Exercise_06-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise_06-3/Exercise_06-3.iml" filepath="$PROJECT_DIR$/Exercise_06-3/Exercise_06-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_07-1/Exercise_07-1.iml" filepath="$PROJECT_DIR$/Exercise_07-1/Exercise_07-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_07-2/Exercise_07-2.iml" filepath="$PROJECT_DIR$/Exercise_07-2/Exercise_07-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_07-3/Exercise_07-3.iml" filepath="$PROJECT_DIR$/Exercise_07-3/Exercise_07-3.iml" />
@@ -22,18 +12,17 @@
       <module fileurl="file://$PROJECT_DIR$/Exercise_08-2/Exercise_08-2.iml" filepath="$PROJECT_DIR$/Exercise_08-2/Exercise_08-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_16-practica/Exercise_16-practica.iml" filepath="$PROJECT_DIR$/Exercise_16-practica/Exercise_16-practica.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercise_Optional_01/Exercise_Optional_01.iml" filepath="$PROJECT_DIR$/Exercise_Optional_01/Exercise_Optional_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Home/Home.iml" filepath="$PROJECT_DIR$/Home/Home.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lectia_2TP/Lectia_2TP.iml" filepath="$PROJECT_DIR$/Lectia_2TP/Lectia_2TP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mesto_peremen/Mesto_peremen.iml" filepath="$PROJECT_DIR$/Mesto_peremen/Mesto_peremen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Profesional/Profesional.iml" filepath="$PROJECT_DIR$/Profesional/Profesional.iml" />
       <module fileurl="file://$PROJECT_DIR$/Starter/Starter.iml" filepath="$PROJECT_DIR$/Starter/Starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demos/demos.iml" filepath="$PROJECT_DIR$/demos/demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tekwill/Tekwill.iml" filepath="$PROJECT_DIR$/Tekwill/Tekwill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tekwill/auth.iml" filepath="$PROJECT_DIR$/Tekwill/auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia12ntc/lectia12ntc.iml" filepath="$PROJECT_DIR$/lectia12ntc/lectia12ntc.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia13n1/lectia13n1.iml" filepath="$PROJECT_DIR$/lectia13n1/lectia13n1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia14n1/lectia14n1.iml" filepath="$PROJECT_DIR$/lectia14n1/lectia14n1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia14tc2/lectia14tc2.iml" filepath="$PROJECT_DIR$/lectia14tc2/lectia14tc2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lectia14tc2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lectia14tc2_main.iml" group="lectia14tc2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lectia14tc2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lectia14tc2_test.iml" group="lectia14tc2" />
       <module fileurl="file://$PROJECT_DIR$/lectia15n1/lectia15n1.iml" filepath="$PROJECT_DIR$/lectia15n1/lectia15n1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia15tc1/lectia15tc1.iml" filepath="$PROJECT_DIR$/lectia15tc1/lectia15tc1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lectia15tc2/lectia15tc2.iml" filepath="$PROJECT_DIR$/lectia15tc2/lectia15tc2.iml" />

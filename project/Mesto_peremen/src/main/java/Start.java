@@ -1,12 +1,12 @@
 import Interfaces.Resourse;
 import body.User;
+import demo.prototip.MiniGame;
 import service.*;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Start {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Authentification mp = new Authentification();
         Scanner sc = new Scanner( System.in );
         boolean exit = false;
@@ -40,8 +40,7 @@ public class Start {
                         System.out.println( "Don't access " + res );
                     break;
                 case "minigame" :
-                    MiniGame mg = new MiniGame();
-                    mg.Nums();
+                    MiniGame2.Nums();
                     break;
                 case "delete":
                     String del = place[1];

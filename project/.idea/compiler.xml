@@ -7,21 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Android" />
-        <module name="auth" />
         <module name="CodeWars" />
-        <module name="demos" />
         <module name="Essential" />
-        <module name="Exercise_03-1" />
-        <module name="Exercise_03-2" />
-        <module name="Exercise_04-1" />
-        <module name="Exercise_04-2" />
-        <module name="Exercise_05-1" />
-        <module name="Exercise_05-2" />
-        <module name="Exercise_05-3" />
-        <module name="Exercise_05-More" />
-        <module name="Exercise_06-1" />
-        <module name="Exercise_06-2" />
-        <module name="Exercise_06-3" />
         <module name="Exercise_07-1" />
         <module name="Exercise_07-2" />
         <module name="Exercise_07-3" />
@@ -29,6 +16,7 @@
         <module name="Exercise_08-2" />
         <module name="Exercise_16-practica" />
         <module name="Exercise_Optional_01" />
+        <module name="Home" />
         <module name="lectia12ntc" />
         <module name="lectia13n1" />
         <module name="lectia14n1" />
@@ -44,6 +32,7 @@
         <module name="Mesto_peremen" />
         <module name="Profesional" />
         <module name="Starter" />
+        <module name="Tekwill" />
       </profile>
       <profile name="Annotation profile for project" enabled="true">
         <sourceOutputDir name="../auth/target/generated-sources/annotations" />
@@ -58,7 +47,7 @@
       <module name="CodeWars" target="1.8" />
       <module name="demos" target="1.8" />
       <module name="Essential" target="1.8" />
-      <module name="Exercise_03-1" target="1.8" />
+      <module name="Exercise_03-1" target="1.5" />
       <module name="Exercise_03-2" target="1.8" />
       <module name="Exercise_031" target="1.8" />
       <module name="Exercise_04-1" target="1.8" />
@@ -77,6 +66,7 @@
       <module name="Exercise_08-2" target="1.8" />
       <module name="Exercise_16-practica" target="1.8" />
       <module name="Exercise_Optional_01" target="1.8" />
+      <module name="Home" target="1.8" />
       <module name="kn" target="1.5" />
       <module name="lectia12ntc" target="1.8" />
       <module name="lectia13n1" target="1.8" />
@@ -111,12 +101,14 @@
       <module name="Matrix" target="1.8" />
       <module name="Mesto_peremen" target="1.8" />
       <module name="MyCompany" target="1.8" />
+      <module name="OraclehomeWork" target="1.8" />
       <module name="practicaY1AntiBoty" target="1.8" />
       <module name="Profesional" target="1.8" />
       <module name="project" target="1.8" />
       <module name="Spoj" target="1.8" />
       <module name="Starter" target="1.8" />
       <module name="Steaua" target="1.5" />
+      <module name="Tekwill" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
