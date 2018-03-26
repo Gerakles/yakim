@@ -78,6 +78,7 @@ public class Gui_yakim { //3.04 kb
             }
         }
     }
+
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
