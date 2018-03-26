@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.Random;
 
 public class Gui_yakim { //3.04 kb
@@ -92,13 +93,15 @@ public class Gui_yakim { //3.04 kb
         @Override
         public void actionPerformed(ActionEvent e) {
             String name = input.getText();
+
             int score = iter;
-            if (iter>2) {
-                output.append( "\n Best score is: "+iter );
-                output.append( "\n Your name: " );
-                input.getText();
-                User user = ScoreList.service.createUser( name, String.valueOf( score ) );
-                output.append( "\nNew player: "+name );
+            if (iter>=5) {
+                try {
+                    TextReader.NewP();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+                output.append( String.format( "Player-%s has score %s"+name,score ) );
             }
         }
     }
