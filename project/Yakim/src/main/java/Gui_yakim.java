@@ -44,7 +44,6 @@ public class Gui_yakim { //3.04 kb
         JPanel buttonpanel = new JPanel();
         buttonpanel.setLayout( new GridLayout( 1, 1 ) );
         buttonpanel.add( sendButton );
-
         frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
         sendButton.addActionListener( new Restarts() );
