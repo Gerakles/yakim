@@ -39,13 +39,14 @@ public class Gui_yakim { //3.04 kb
         sendButton.setBorderPainted( false );
         sendButton.setFocusPainted( false );
         sendButton.setBackground( gray1 );
-        sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Yakim\\src\\main\\java\\n.png" ) );
+        sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Yakim\\src\\main\\java\\img\\n.png" ) );
 
         JPanel buttonpanel = new JPanel();
         buttonpanel.setLayout( new GridLayout( 1, 1 ) );
         buttonpanel.add( sendButton );
         frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
+        input.addActionListener( new BestScore() );
         sendButton.addActionListener( new Restarts() );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
@@ -84,6 +85,21 @@ public class Gui_yakim { //3.04 kb
             output.setText( "Level 1. Write number 1 " );
             input.setEnabled( true );
             iter = 1;
+        }
+    }
+    private class BestScore implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String name = input.getText();
+            int score = iter;
+            if (iter>2) {
+                output.append( "\n Best score is: "+iter );
+                output.append( "\n Your name: " );
+                input.getText();
+                User user = ScoreList.service.createUser( name, String.valueOf( score ) );
+                output.append( "\nNew player: "+name );
+            }
         }
     }
 }

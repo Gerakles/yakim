@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tekwill/Autentification.iml" filepath="$PROJECT_DIR$/Tekwill/Autentification.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeWars/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars/CodeWars.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ITDVN/ITDVN.iml" filepath="$PROJECT_DIR$/ITDVN/ITDVN.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mesto_peremen/Mesto_peremen.iml" filepath="$PROJECT_DIR$/Mesto_peremen/Mesto_peremen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tekwill/Tekwill.iml" filepath="$PROJECT_DIR$/Tekwill/Tekwill.iml" />
       <module fileurl="file://$PROJECT_DIR$/Yakim/Yakim.iml" filepath="$PROJECT_DIR$/Yakim/Yakim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tekwill/auth.iml" filepath="$PROJECT_DIR$/Tekwill/auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
     </modules>
   </component>

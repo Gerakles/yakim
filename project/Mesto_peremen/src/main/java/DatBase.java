@@ -2,15 +2,15 @@ import java.sql.*;
 
 public class DatBase {
     // SQLite connection string
-    static final String url = "jdbc:sqlite:D://lectii/src/db/mesto_peremen.db";
+    static final String url = "jdbc:sqlite:D://lectii/yakim/db/mesto_peremen.db";
 
     public static void main(String[] args) {
         DatBase app = new DatBase();
-//        app.createNewTable();
-//        app.insert("Bogdan", "yakim",1);
+        app.createNewTable();
+        app.insert("Bogdan", "yakim",1);
         app.selectAll();
     }
-    public void createNewTable() {
+    private void createNewTable() {
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS user (\n"
                 + "	id integer PRIMARY KEY,\n"
@@ -37,7 +37,7 @@ public class DatBase {
         }
         return conn;
     }
-    public void insert(String name, String passowrd, int idRole) {
+    private void insert(String name, String passowrd, int idRole) {
         String sql = "INSERT INTO user(name,password,id_role) VALUES(?,?,?)";
 
         try (Connection conn = this.connect();
@@ -50,7 +50,7 @@ public class DatBase {
             System.out.println(e.getMessage());
         }
     }
-    public void selectAll() {
+private void selectAll() {
         String sql = "SELECT id, name, password, id_role FROM user";
 
         try (Connection conn = this.connect();

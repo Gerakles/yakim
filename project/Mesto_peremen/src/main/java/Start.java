@@ -1,6 +1,5 @@
 import Interfaces.Resourse;
 import body.User;
-import demo.prototip.MiniGame;
 import service.*;
 
 import java.util.Scanner;
