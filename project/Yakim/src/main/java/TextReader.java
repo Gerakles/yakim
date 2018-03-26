@@ -10,7 +10,8 @@ public class TextReader {
 
         String text = buff.readLine();
         String[] content = text.split( " " );
-        String result = String.format( "Name is: %s, Best score is: %s \n" + content[0], content[1] );
+        String result = String.format( "Name is: %s, Best score is: %s \n", content[0], content[1] );
+//        System.out.println(result);
     }
 
     public static void NewP() throws IOException {
