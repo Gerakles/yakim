@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-public class Gui_yakim { //3.05 kb
+public class Gui_yakim { //3.04 kb
     private static int iter = 1;
     private JTextArea output;
     private JTextField input;
@@ -31,7 +31,7 @@ public class Gui_yakim { //3.05 kb
         output.setFont( font );
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 123, 125, 125 );
-        Color gray2 = new Color( 151, 154, 154 );
+//        Color gray2 = new Color( 151, 154, 154 );
         output.setBackground( gray1 );
         output.setForeground( yellow );
         input.setBackground( gray1 );
