@@ -19,7 +19,7 @@ public class TextReader {
         BufferedReader buff = new BufferedReader( reader );
 
         String text = buff.readLine();
-        String[] content = text.split( " " );
+        String[] content = new String[2];
         String name = content[0];
         String score = content[1];
         String txt = String.format( "%s: %s"+ name,score);

@@ -95,7 +95,7 @@ public class Gui_yakim { //3.04 kb
             String name = input.getText();
 
             int score = iter;
-            if (iter>=5) {
+            if (iter>=2) {
                 try {
                     TextReader.NewP();
                 } catch (IOException e1) {
