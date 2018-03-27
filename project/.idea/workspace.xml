@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/res/Gui.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/res/Gui.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$BestScore.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -116,20 +120,27 @@
       <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="-572">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3123#3124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/TextReader.java">
+      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="814">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2245#2246#0" expanded="true" />
+                <element signature="e#2281#2282#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -427,7 +438,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Home/pom.xml" />
         <option value="$PROJECT_DIR$/Tekwill/OraclehomeWork/Exercise_03-1/pom.xml" />
         <option value="$PROJECT_DIR$/Tekwill/auth/pom.xml" />
         <option value="$PROJECT_DIR$/Tekwill/OraclehomeWork/pom.xml" />
@@ -477,6 +487,7 @@
         <option value="$PROJECT_DIR$/Yakim/src/main/java/ScoreList.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/TextReader.java" />
+        <option value="$PROJECT_DIR$/Yakim/src/main/java/Window.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
       </list>
     </option>
@@ -542,15 +553,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Yakim" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -653,13 +655,13 @@
       <module name="Yakim" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
-      <module name="Mesto_peremen" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="TextReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextReader" />
+      <module name="Yakim" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Window" />
       <module name="Yakim" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -730,17 +732,17 @@
     <list>
       <item itemvalue="Application.Gui_yakim (1)" />
       <item itemvalue="Application.DatBase" />
-      <item itemvalue="Application.Start" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TextReader" />
+      <item itemvalue="Application.Window" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Gui_yakim (1)" />
+        <item itemvalue="Application.Window" />
         <item itemvalue="Application.TextReader" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DatBase" />
-        <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -824,16 +826,16 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.3509061" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49394855" visible="true" weight="0.3509061" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.1762481" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info x="457" y="136" width="451" height="455" id="UI Designer" order="2" type="FLOATING" />
@@ -870,7 +872,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="89" />
+      <option name="time" value="90" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -884,6 +886,8 @@
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1044,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/service/Authentification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1115,13 +1112,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Main.java" />
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/TextReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1129,12 +1119,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/TextReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2245#2246#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
           </folding>
         </state>
       </provider>

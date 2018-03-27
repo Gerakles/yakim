@@ -7,60 +7,93 @@ import java.util.Random;
 
 public class Gui_yakim { //3.62 kb
     private static int iter = 1;
+    private static String playerName;
+    private final String textFile = "Yakim/src/main/java/res/Gui.txt";
     private JTextArea output;
     private JTextField input;
-    private JButton sendButton;
-    private JButton newPlayer;
+    private JButton newGame;
+    private JButton restart;
+    private JFrame frame;
+    private JLabel label;
+    private JPanel buttonsPanel;
+    private JPanel mPanel;
 
     private Gui_yakim() {
-        output = new JTextArea( "Level 1. Write number 1 ", 20, 10 );
+        frame = new JFrame( "Prototip" );
+        frame.setSize( 350, 300 );
+        frame.setVisible( true );
+        frame.setResizable( false );
+        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
+        frame.setLocationRelativeTo( null );
+        frame.setLayout( new BorderLayout() );
+        //frame.setAlwaysOnTop( true );
+
+        Color yellow = new Color( 212, 172, 13 );
+        Color gray1 = new Color( 123, 125, 125 );
+
+        restart = new JButton( "" );
+        newGame = new JButton( "" );
+        restart.setBorderPainted( false );
+        restart.setFocusPainted( false );
+        restart.setBackground( gray1 );
+        newGame.setBorderPainted( false );
+        newGame.setFocusPainted( false );
+        newGame.setBackground( gray1 );
+        restart.setIcon( new ImageIcon( "Yakim/src/main/java/res/n.png" ) );
+        newGame.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
+        newGame.addActionListener( new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String name = JOptionPane.showInputDialog( "Write your NickName" );
+                playerName = name;
+                label.setText( "Player " + playerName );
+                setVisionItems( true );
+            }
+        } );
+
+        buttonsPanel = new JPanel( new BorderLayout() );
+        buttonsPanel.setLayout( new GridLayout( 1, 2 ) );
+        buttonsPanel.add( newGame );
+        frame.add( buttonsPanel, BorderLayout.NORTH );
+
         input = new JTextField( 20 );
-        sendButton = new JButton( "" );
-        newPlayer = new JButton( "" );
+        input.setBackground( gray1 );
+        input.setForeground( Color.WHITE );
+        frame.add( input, BorderLayout.SOUTH );
+
+        mPanel = new JPanel();
+        mPanel.setLayout( new BorderLayout() );
+
+        label = new JLabel( "" );
+        output = new JTextArea();
+        Font font = new Font( "Arial", Font.PLAIN, 15 );
+        output.setFont( font );
+        output.setBackground( gray1 );
+        output.setForeground( yellow );
+
+        mPanel.add( label, BorderLayout.NORTH );
+        mPanel.add( output, BorderLayout.SOUTH );
+        frame.add( mPanel, BorderLayout.CENTER );
+    }
+
+    private void start() {
+        setVisionItems( false );
+        input.addActionListener( new Nums() );
+        restart.addActionListener( new Restarts() );
+    }
+
+    private void setVisionItems(boolean pass) {
+        label.setVisible( pass );
+        input.setVisible( pass );
+        output.setVisible( pass );
+
+        if (pass) {
+            buttonsPanel.add( restart, BorderLayout.EAST );
+        }
     }
 
     public static void main(String[] args) {
-        Gui_yakim yakim = new Gui_yakim();
-        yakim.begins();
-    }
-
-    private void begins() {
-        JFrame frame = new JFrame( "Prototip" );
-        frame.setLayout( new BorderLayout() );
-        frame.add( output, BorderLayout.CENTER );
-        frame.add( input, BorderLayout.SOUTH );
-
-        Font font = new Font( "Arial", Font.PLAIN, 15 );
-        output.setFont( font );
-        Color yellow = new Color( 212, 172, 13 );
-        Color gray1 = new Color( 123, 125, 125 );
-        output.setBackground( gray1 );
-        output.setForeground( yellow );
-        input.setBackground( gray1 );
-        input.setForeground( Color.WHITE );
-        sendButton.setBorderPainted( false );
-        sendButton.setFocusPainted( false );
-        sendButton.setBackground( gray1 );
-        newPlayer.setBorderPainted( false );
-        newPlayer.setFocusPainted( false );
-        newPlayer.setBackground( gray1 );
-        sendButton.setIcon( new ImageIcon( "Yakim/src/main/java/res/n.png" ) );
-        newPlayer.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
-
-        JPanel buttonpanel = new JPanel();
-        buttonpanel.setLayout( new GridLayout( 1, 2 ) );
-        buttonpanel.add( sendButton );
-        buttonpanel.add( newPlayer );
-        frame.add( buttonpanel, BorderLayout.NORTH );
-        input.addActionListener( new Nums() );
-        newPlayer.addActionListener( new BestScore() );
-        sendButton.addActionListener( new Restarts() );
-        frame.setSize( 350, 300 );
-        frame.setVisible( true );
-        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
-        frame.setAlwaysOnTop( true );
-        frame.setLocationRelativeTo( null );
-        output.setEditable( false );
+        new Gui_yakim().start();
     }
 
     private class Nums implements ActionListener {
@@ -72,7 +105,7 @@ public class Gui_yakim { //3.62 kb
             iter++;
 
             if (iter > 10) {
-                Integer keyValue = Integer.parseInt( input.getText() );
+                Integer keyValue = Integer.parseInt( output.getText() );
                 String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
 
                 if (keyValue == target) {
@@ -96,19 +129,18 @@ public class Gui_yakim { //3.62 kb
             iter = 1;
         }
     }
-
-    private class BestScore implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            output.setText( "New player is\n" );
-            input.setEnabled( true );
-            String name = input.getText();
-            try {
-                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt", "\n" + name + " " + iter );
-            } catch (FileNotFoundException ep) {
-                ep.printStackTrace();
-            }
-        }
-    }
 }
+//    private class BestScore implements ActionListener {
+//
+//        @Override
+//        public void actionPerformed(ActionEvent e) {
+//            output.setText( "New player is\n" );
+//            input.setEnabled( true );
+//            String name = input.getText();
+//            try {
+//                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt", "\n" + name + " " + iter );
+//            } catch (FileNotFoundException ep) {
+//                ep.printStackTrace();
+//            }
+//        }
+//    }
