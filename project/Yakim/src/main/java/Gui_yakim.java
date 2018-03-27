@@ -53,7 +53,7 @@ public class Gui_yakim { //3.62 kb
         buttonpanel.add( newPlayer );
         frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
-        //input.addActionListener( new BestScore() );
+        
         newPlayer.addActionListener( new BestScore() );
         sendButton.addActionListener( new Restarts() );
         frame.setSize( 350, 300 );
