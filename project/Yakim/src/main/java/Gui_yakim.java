@@ -34,7 +34,7 @@ public class Gui_yakim { //3.62 kb
         output.setFont( font );
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 123, 125, 125 );
-//        Color gray2 = new Color( 151, 154, 154 );
+        Color gray2 = new Color( 151, 154, 154 );
         output.setBackground( gray1 );
         output.setForeground( yellow );
         input.setBackground( gray1 );
@@ -73,7 +73,7 @@ public class Gui_yakim { //3.62 kb
             int target = random.nextInt( iter ) + 1;
             iter++;
 
-            if (iter>10) {
+            if (iter > 10) {
                 Integer keyValue = Integer.parseInt( input.getText() );
                 String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
 
@@ -98,6 +98,7 @@ public class Gui_yakim { //3.62 kb
             iter = 1;
         }
     }
+
     private class BestScore implements ActionListener {
 
         @Override
@@ -106,7 +107,7 @@ public class Gui_yakim { //3.62 kb
             input.setEnabled( true );
             String name = input.getText();
             try {
-                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt","\n"+name+" "+iter );
+                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt", "\n" + name + " " + iter );
             } catch (FileNotFoundException ep) {
                 ep.printStackTrace();
             }
