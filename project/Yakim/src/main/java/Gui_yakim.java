@@ -5,16 +5,18 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.Random;
 
-public class Gui_yakim { //3.04 kb
+public class Gui_yakim { //3.62 kb
     private static int iter = 1;
     private JTextArea output;
     private JTextField input;
     private JButton sendButton;
+    private JButton newPlayer;
 
     private Gui_yakim() {
         output = new JTextArea( "Level 1. Write number 1 ", 20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "" );
+        newPlayer = new JButton( "New Player" );
     }
 
     public static void main(String[] args) {
@@ -43,11 +45,12 @@ public class Gui_yakim { //3.04 kb
         sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Yakim\\src\\main\\java\\img\\n.png" ) );
 
         JPanel buttonpanel = new JPanel();
-        buttonpanel.setLayout( new GridLayout( 1, 1 ) );
+        buttonpanel.setLayout( new GridLayout( 1, 2 ) );
         buttonpanel.add( sendButton );
+        buttonpanel.add( newPlayer );
         frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
-        input.addActionListener( new BestScore() );
+        //input.addActionListener( new BestScore() );
         sendButton.addActionListener( new Restarts() );
         frame.setSize( 350, 300 );
         frame.setVisible( true );

@@ -15,17 +15,6 @@ public class TextReader {
     }
 
     public static void NewP() throws IOException {
-        File fil = new File( path );
-        FileReader reader = new FileReader( fil );
-        BufferedReader buff = new BufferedReader( reader );
-
-        String text = buff.readLine();
-        String[] content = new String[2];
-        String name = content[0];
-        String score = content[1];
-        String txt = String.format( "%s: %s"+ name,score);
-        FileWriter writer = new FileWriter( path, true );
-        BufferedWriter buffW = new BufferedWriter( writer );
-        buff.close();
+        
     }
 }
