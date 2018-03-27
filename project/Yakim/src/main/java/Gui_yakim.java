@@ -45,7 +45,7 @@ public class Gui_yakim { //4.84 kb
             public void actionPerformed(ActionEvent e) {
                 String name = JOptionPane.showInputDialog( "Write your NickName" );
                 playerName = name;
-                label.setText( "Player " + playerName );
+                output.setText( "Player " + playerName );
                 setVisionItems( true );
             }
         } );
@@ -71,7 +71,7 @@ public class Gui_yakim { //4.84 kb
         output.setForeground( yellow );
 
         mPanel.add( label, BorderLayout.NORTH );
-        mPanel.add( output, BorderLayout.SOUTH );
+        mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
     }
 
