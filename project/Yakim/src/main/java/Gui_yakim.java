@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class Gui_yakim { //4.84 kb
@@ -76,6 +75,10 @@ public class Gui_yakim { //4.84 kb
         frame.add( mPanel, BorderLayout.CENTER );
     }
 
+    public static void main(String[] args) {
+        new Gui_yakim().start();
+    }
+
     private void start() {
         setVisionItems( false );
         input.addActionListener( new Nums() );
@@ -90,10 +93,6 @@ public class Gui_yakim { //4.84 kb
         if (pass) {
             buttonsPanel.add( restart, BorderLayout.EAST );
         }
-    }
-
-    public static void main(String[] args) {
-        new Gui_yakim().start();
     }
 
     private class Nums implements ActionListener {
