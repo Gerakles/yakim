@@ -34,7 +34,6 @@ public class Gui_yakim { //3.62 kb
         output.setFont( font );
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 123, 125, 125 );
-        Color gray2 = new Color( 151, 154, 154 );
         output.setBackground( gray1 );
         output.setForeground( yellow );
         input.setBackground( gray1 );
