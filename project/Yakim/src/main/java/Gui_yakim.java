@@ -16,7 +16,7 @@ public class Gui_yakim { //3.62 kb
         output = new JTextArea( "Level 1. Write number 1 ", 20, 10 );
         input = new JTextField( 20 );
         sendButton = new JButton( "" );
-        newPlayer = new JButton( "New Player" );
+        newPlayer = new JButton( "" );
     }
 
     public static void main(String[] args) {
@@ -42,7 +42,11 @@ public class Gui_yakim { //3.62 kb
         sendButton.setBorderPainted( false );
         sendButton.setFocusPainted( false );
         sendButton.setBackground( gray1 );
-        sendButton.setIcon( new ImageIcon( "D:\\lectii\\yakim\\project\\Yakim\\src\\main\\java\\img\\n.png" ) );
+        newPlayer.setBorderPainted( false );
+        newPlayer.setFocusPainted( false );
+        newPlayer.setBackground( gray1 );
+        sendButton.setIcon( new ImageIcon( "Yakim/src/main/java/res/n.png" ) );
+        newPlayer.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
 
         JPanel buttonpanel = new JPanel();
         buttonpanel.setLayout( new GridLayout( 1, 2 ) );
@@ -102,7 +106,7 @@ public class Gui_yakim { //3.62 kb
             input.setEnabled( true );
             String name = input.getText();
             try {
-                TextReader.NewP( "D://lectii/yakim/db/GUI.txt","\n"+name+" "+iter );
+                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt","\n"+name+" "+iter );
             } catch (FileNotFoundException ep) {
                 ep.printStackTrace();
             }
