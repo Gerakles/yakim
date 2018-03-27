@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
 import java.util.Random;
 
-public class Gui_yakim { //3.62 kb
+public class Gui_yakim { //4.84 kb
     private static int iter = 1;
     private static String playerName;
     private final String textFile = "Yakim/src/main/java/res/Gui.txt";
