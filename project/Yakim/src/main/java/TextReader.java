@@ -11,12 +11,12 @@ public class TextReader {
         String text = buff.readLine();
         String[] content = text.split( " " );
         String result = String.format( "Name is: %s, Best score is: %s \n", content[0], content[1] );
-        System.out.println(result);
+        System.out.println( result );
     }
 
     public static void NewP(String filename, String text) throws FileNotFoundException {
-        PrintStream printStream = new PrintStream(new FileOutputStream(filename, true), true);
-        printStream.println(text);
+        PrintStream printStream = new PrintStream( new FileOutputStream( filename, true ), true );
+        printStream.println( text );
         printStream.close();
     }
 }

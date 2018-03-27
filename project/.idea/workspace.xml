@@ -4,51 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/img/n.png" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/res/n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$BestScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$BestScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number1/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number2/BasicTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number2/Bytte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number2/Char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number2/DefaultValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number2/FloatDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/Concatenation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/Koreni.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/LocalVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/Operatii.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/StingFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/TrueFalse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/arithmetik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/compar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/increment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/preobrazovanie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/probnik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number3/stepeni.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number4/CoffeeMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number4/IfElse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number4/ZnakVoprosa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HW/number4/swichcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/api/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/api/Presence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/api/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Lesson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/NotStartedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/PresenceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Profesor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lectia14tc2/impl/Tekwill.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -160,8 +116,8 @@
       <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="408">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1175,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="408">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
