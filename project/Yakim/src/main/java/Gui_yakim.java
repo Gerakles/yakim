@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.Random;
 
 public class Gui_yakim { //3.62 kb
@@ -51,6 +51,7 @@ public class Gui_yakim { //3.62 kb
         frame.add( buttonpanel, BorderLayout.NORTH );
         input.addActionListener( new Nums() );
         //input.addActionListener( new BestScore() );
+        newPlayer.addActionListener( new BestScore() );
         sendButton.addActionListener( new Restarts() );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
@@ -68,17 +69,19 @@ public class Gui_yakim { //3.62 kb
             int target = random.nextInt( iter ) + 1;
             iter++;
 
-            Integer keyValue = Integer.parseInt( input.getText() );
-            String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
+            if (iter>10) {
+                Integer keyValue = Integer.parseInt( input.getText() );
+                String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
 
-            if (keyValue == target) {
-                output.append( "........" + keyValue + " - Good! \n" );
-                output.append( temp );
-                input.setText( "" );
-            } else {
-                output.append( "........" + keyValue + " - Game over! \n" );
-                output.append( "Answer : " + target );
-                input.setEnabled( false );
+                if (keyValue == target) {
+                    output.append( "........" + keyValue + " - Good! \n" );
+                    output.append( temp );
+                    input.setText( "" );
+                } else {
+                    output.append( "........" + keyValue + " - Game over! \n" );
+                    output.append( "Answer : " + target );
+                    input.setEnabled( false );
+                }
             }
         }
     }
@@ -95,16 +98,13 @@ public class Gui_yakim { //3.62 kb
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            output.setText( "New player is\n" );
+            input.setEnabled( true );
             String name = input.getText();
-
-            int score = iter;
-            if (iter>=2) {
-                try {
-                    TextReader.NewP();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
-                output.append( String.format( "Player-%s has score %s"+name,score ) );
+            try {
+                TextReader.NewP( "D://lectii/yakim/db/GUI.txt","\n"+name+" "+iter );
+            } catch (FileNotFoundException ep) {
+                ep.printStackTrace();
             }
         }
     }
