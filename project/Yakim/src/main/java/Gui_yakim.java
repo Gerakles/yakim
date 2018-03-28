@@ -21,7 +21,7 @@ public class Gui_yakim { //4.84 kb
         frame = new JFrame( "Prototip" );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
-        frame.setResizable( false );
+//        frame.setResizable( false );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setLocationRelativeTo( null );
         frame.setLayout( new BorderLayout() );
@@ -40,14 +40,10 @@ public class Gui_yakim { //4.84 kb
         newGame.setBackground( gray1 );
         restart.setIcon( new ImageIcon( "Yakim/src/main/java/res/n.png" ) );
         newGame.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
-        newGame.addActionListener( new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String name = JOptionPane.showInputDialog( "Write your NickName" );
-                playerName = name;
-                output.setText( "Player " + playerName );
-                setVisionItems( true );
-            }
+        newGame.addActionListener( e -> {
+            playerName = JOptionPane.showInputDialog( "Write your NickName" );
+            output.setText( "Player " + playerName+"\nLevel 1. Write number 1 " );
+            setVisionItems( true );
         } );
 
         buttonsPanel = new JPanel( new BorderLayout() );
@@ -63,14 +59,14 @@ public class Gui_yakim { //4.84 kb
         mPanel = new JPanel();
         mPanel.setLayout( new BorderLayout() );
 
-        label = new JLabel( "" );
+        //label = new JLabel( "" );
         output = new JTextArea();
         Font font = new Font( "Arial", Font.PLAIN, 15 );
         output.setFont( font );
         output.setBackground( gray1 );
         output.setForeground( yellow );
 
-        mPanel.add( label, BorderLayout.NORTH );
+        //mPanel.add( label, BorderLayout.NORTH );
         mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
     }
@@ -86,7 +82,7 @@ public class Gui_yakim { //4.84 kb
     }
 
     private void setVisionItems(boolean pass) {
-        label.setVisible( pass );
+        //label.setVisible( pass );
         input.setVisible( pass );
         output.setVisible( pass );
 
@@ -103,19 +99,17 @@ public class Gui_yakim { //4.84 kb
             int target = random.nextInt( iter ) + 1;
             iter++;
 
-            if (iter > 10) {
-                Integer keyValue = Integer.parseInt( output.getText() );
-                String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
+            Integer keyValue = Integer.parseInt( input.getText() );
+            String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
 
-                if (keyValue == target) {
-                    output.append( "........" + keyValue + " - Good! \n" );
-                    output.append( temp );
-                    input.setText( "" );
-                } else {
-                    output.append( "........" + keyValue + " - Game over! \n" );
-                    output.append( "Answer : " + target );
-                    input.setEnabled( false );
-                }
+            if (keyValue == target) {
+                output.append( "........" + keyValue + " - Good! \n" );
+                output.append( temp );
+                input.setText( "" );
+            } else {
+                output.append( "........" + keyValue + " - Game over! \n" );
+                output.append( "Answer : " + target );
+                input.setEnabled( false );
             }
         }
     }
@@ -123,7 +117,7 @@ public class Gui_yakim { //4.84 kb
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText( "Level 1. Write number 1 " );
+            output.setText( "Player " + playerName+"\nLevel 1. Write number 1 " );
             input.setEnabled( true );
             iter = 1;
         }

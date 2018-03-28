@@ -7,25 +7,7 @@
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DbApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/Authorization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Photo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ResurcesList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/RoleList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/UserList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/firstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/res/Gui.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/res/Gui.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -138,11 +120,22 @@
       <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+            <state relative-caret-position="297">
+              <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2783#2784#0" expanded="true" />
+                <element signature="e#2822#2823#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Frame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="617" column="16" selection-start-line="617" selection-start-column="16" selection-end-line="617" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -521,9 +514,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -574,6 +566,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -847,7 +840,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.18078668" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
@@ -869,9 +862,8 @@
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.3509061" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.3509061" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info x="457" y="136" width="451" height="455" id="UI Designer" order="2" type="FLOATING" />
@@ -880,21 +872,22 @@
       <window_info id="Capture Tool" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32840723" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.1785174" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.1785174" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3261944" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
     </layout-to-restore>
   </component>
@@ -929,10 +922,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,6 +950,8 @@
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,12 +1204,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="617" column="16" selection-start-line="617" selection-start-column="16" selection-end-line="617" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+        <state relative-caret-position="297">
+          <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
           </folding>
         </state>
       </provider>
