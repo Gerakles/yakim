@@ -1,10 +1,13 @@
+import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
-public class Gui_yakim { //4.84 kb
+public class Gui_yakim { //4.63 kb
     private static int iter = 1;
     private static String playerName;
     private final String textFile = "Yakim/src/main/java/res/Gui.txt";
@@ -16,6 +19,7 @@ public class Gui_yakim { //4.84 kb
     private JLabel label;
     private JPanel buttonsPanel;
     private JPanel mPanel;
+    private static Audio gameOver;
 
     private Gui_yakim() {
         frame = new JFrame( "Prototip" );
@@ -42,7 +46,7 @@ public class Gui_yakim { //4.84 kb
         newGame.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
         newGame.addActionListener( e -> {
             playerName = JOptionPane.showInputDialog( "Write your NickName" );
-            output.setText( "Player " + playerName+"\nLevel 1. Write number 1 " );
+            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
             setVisionItems( true );
         } );
 
@@ -95,6 +99,7 @@ public class Gui_yakim { //4.84 kb
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            gameOver = new Audio( "Yakim/src/main/java/res/Game_over.wav",1 );
             Random random = new Random();
             int target = random.nextInt( iter ) + 1;
             iter++;
@@ -108,6 +113,8 @@ public class Gui_yakim { //4.84 kb
                 input.setText( "" );
             } else {
                 output.append( "........" + keyValue + " - Game over! \n" );
+                gameOver.sounds();
+                gameOver.setVolumes();
                 output.append( "Answer : " + target );
                 input.setEnabled( false );
             }
@@ -117,9 +124,53 @@ public class Gui_yakim { //4.84 kb
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText( "Player " + playerName+"\nLevel 1. Write number 1 " );
+            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
             input.setEnabled( true );
             iter = 1;
+        }
+    }
+
+    private class Audio {
+        private String track;
+        private Clip clip = null;
+        private FloatControl volumes = null;
+        private double wt;
+
+        public Audio(String track, double wt) {
+            this.track = track;
+            this.wt = wt;
+        }
+
+        public void sounds() {
+            File file = new File( this.track );
+            AudioInputStream ais = null;
+            try {
+                ais = AudioSystem.getAudioInputStream( file );
+            } catch (UnsupportedAudioFileException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                clip = AudioSystem.getClip();
+                clip.open( ais );
+                volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );
+
+                clip.setFramePosition( 0 );
+                clip.start();
+            } catch (LineUnavailableException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.getStackTrace();
+            }
+        }
+
+        public void setVolumes() {
+            if (wt < 0) wt = 0;
+            if (wt > 1) wt = 1;
+            float min = volumes.getMinimum();
+            float max = volumes.getMaximum();
+            volumes.setValue( (max-min)*(float)wt+min );
         }
     }
 }
