@@ -21,6 +21,7 @@ public class ScoreList {
         }
         return null;
     }
+
     private Connection conect() {
         // SQLite connection string
         Connection connection = null;
