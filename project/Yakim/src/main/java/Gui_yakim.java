@@ -7,9 +7,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
-public class Gui_yakim { //4.63 kb
+public class Gui_yakim { //6.24 kb
     private static int iter = 1;
     private static String playerName;
+    private static Audio gameOver;
+    private static Audio applause;
     private final String textFile = "Yakim/src/main/java/res/Gui.txt";
     private JTextArea output;
     private JTextField input;
@@ -19,17 +21,14 @@ public class Gui_yakim { //4.63 kb
     private JLabel label;
     private JPanel buttonsPanel;
     private JPanel mPanel;
-    private static Audio gameOver;
 
     private Gui_yakim() {
         frame = new JFrame( "Prototip" );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
-//        frame.setResizable( false );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setLocationRelativeTo( null );
         frame.setLayout( new BorderLayout() );
-        //frame.setAlwaysOnTop( true );
 
         Color yellow = new Color( 212, 172, 13 );
         Color gray1 = new Color( 123, 125, 125 );
@@ -63,14 +62,12 @@ public class Gui_yakim { //4.63 kb
         mPanel = new JPanel();
         mPanel.setLayout( new BorderLayout() );
 
-        //label = new JLabel( "" );
         output = new JTextArea();
         Font font = new Font( "Arial", Font.PLAIN, 15 );
         output.setFont( font );
         output.setBackground( gray1 );
         output.setForeground( yellow );
 
-        //mPanel.add( label, BorderLayout.NORTH );
         mPanel.add( output, BorderLayout.CENTER );
         frame.add( mPanel, BorderLayout.CENTER );
     }
@@ -86,7 +83,6 @@ public class Gui_yakim { //4.63 kb
     }
 
     private void setVisionItems(boolean pass) {
-        //label.setVisible( pass );
         input.setVisible( pass );
         output.setVisible( pass );
 
@@ -99,7 +95,8 @@ public class Gui_yakim { //4.63 kb
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            gameOver = new Audio( "Yakim/src/main/java/res/Game_over.wav",1 );
+            applause = new Audio( "Yakim/src/main/java/res/applause.wav", 1 );
+            gameOver = new Audio( "Yakim/src/main/java/res/Game_over.wav", 1 );
             Random random = new Random();
             int target = random.nextInt( iter ) + 1;
             iter++;
@@ -110,6 +107,8 @@ public class Gui_yakim { //4.63 kb
             if (keyValue == target) {
                 output.append( "........" + keyValue + " - Good! \n" );
                 output.append( temp );
+                applause.sounds();
+                applause.setVolumes();
                 input.setText( "" );
             } else {
                 output.append( "........" + keyValue + " - Game over! \n" );
@@ -136,19 +135,17 @@ public class Gui_yakim { //4.63 kb
         private FloatControl volumes = null;
         private double wt;
 
-        public Audio(String track, double wt) {
+        Audio(String track, double wt) {
             this.track = track;
             this.wt = wt;
         }
 
-        public void sounds() {
+        private void sounds() {
             File file = new File( this.track );
             AudioInputStream ais = null;
             try {
                 ais = AudioSystem.getAudioInputStream( file );
-            } catch (UnsupportedAudioFileException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
+            } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
             try {
@@ -158,19 +155,17 @@ public class Gui_yakim { //4.63 kb
 
                 clip.setFramePosition( 0 );
                 clip.start();
-            } catch (LineUnavailableException e) {
+            } catch (LineUnavailableException | IOException e) {
                 e.printStackTrace();
-            } catch (IOException e) {
-                e.getStackTrace();
             }
         }
 
-        public void setVolumes() {
+        void setVolumes() {
             if (wt < 0) wt = 0;
             if (wt > 1) wt = 1;
             float min = volumes.getMinimum();
             float max = volumes.getMaximum();
-            volumes.setValue( (max-min)*(float)wt+min );
+            volumes.setValue( (max - min) * (float) wt + min );
         }
     }
 }
