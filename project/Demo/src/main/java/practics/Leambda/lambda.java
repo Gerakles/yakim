@@ -2,8 +2,8 @@ package practics.Leambda;
 
 public class lambda {
     public static void main(String[] args) {
-        Incrementer incrementer = x ->  Math.sqrt( Math.sqrt((x+3)*4) );
-        System.out.println(incrementer.increment(1));// Lambda где x +1
+        Incrementer incrementer = x -> Math.sqrt( Math.sqrt( (x + 3) * 4 ) );
+        System.out.println( incrementer.increment( 1 ) );// Lambda где x +1
 
 //        ArrayList<Integer> ints = new ArrayList <>();
 //        ints.add( 1 );
