@@ -5,7 +5,7 @@ public class Christian_Wolff { //2.72 kb
         Scanner cw = new Scanner( System.in );
         while (cw.hasNext()) {
             String s = cw.nextLine();
-                 s=s.replaceAll( "a","(!..," )
+            s = s.replaceAll( "a", "(!..," )
                     .replaceAll( "b", "(!,, " )
                     .replaceAll( "c", "(.,  " )
                     .replaceAll( "d", "(,,  " )
@@ -57,7 +57,7 @@ public class Christian_Wolff { //2.72 kb
                     .replaceAll( "X", "( . !" )
                     .replaceAll( "Y", "(,., " )
                     .replaceAll( "Z", "(!.,-" );
-            System.out.println(s);
+            System.out.println( s );
         }
     }
 }
