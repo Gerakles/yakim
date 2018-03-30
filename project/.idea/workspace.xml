@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/demos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/main/java/HappyBirthday.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/main/java/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/main/java/Yakim1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/test/java/HappyBirthdayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/test/java/Main1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/src/test/java/SolutionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/classes/HappyBirthday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/classes/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/classes/Yakim1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/classes/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/test-classes/HappyBirthdayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/test-classes/Main1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/test-classes/MainAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/test-classes/SolutionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/demos/target/test-classes/YakimAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/calc2017/CalculatorEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/src/main/java/calc2017/CalculatorEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,20 +115,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yakimscor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/calc2017/yakimscor.java">
+      <file leaf-file-name="GreenNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorEngine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/calc2017/CalculatorEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -444,12 +417,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_03_1/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_03_2/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_04_1/Shop.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_04_2/Shop.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_05_1/Verification.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_05_2/Arrays.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_05_3/Forul.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_05_More/Main2.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_06_1/odject.java" />
@@ -495,6 +462,12 @@
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Leambda/lambda.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/calc2017/yakimscor.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/calc2017/CalculatorEngine.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/BasicOperations.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/Max.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/XO.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/Universal/universal.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.kt" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java" />
       </list>
     </option>
   </component>
@@ -559,6 +532,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeWars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kyu4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -636,12 +618,6 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="left" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="L9" />
-      <recent name="kyu7" />
-      <recent name="" />
-      <recent name="Clase" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="L7" />
     </key>
@@ -658,6 +634,13 @@
       <recent name="kyu6" />
       <recent name="kyu7" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\lectii\yakim\project\CodeWars\src\main\java" />
+      <recent name="D:\lectii\yakim\project\Yakim\src\main\java" />
+      <recent name="D:\lectii\yakim\project\Yakim\src\main\java\img" />
+      <recent name="D:\lectii\yakim\project" />
+      <recent name="D:\lectii\yakim\project\CodeWars" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="L11" />
       <recent name="L10" />
@@ -670,12 +653,11 @@
       <recent name="D:\lectii\yakim\project\Profesional\src\main\java\L14" />
       <recent name="D:\lectii\yakim\project\Profesional\src\main\java\L11" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\lectii\yakim\project\Yakim\src\main\java" />
-      <recent name="D:\lectii\yakim\project\Yakim\src\main\java\img" />
-      <recent name="D:\lectii\yakim\project" />
-      <recent name="D:\lectii\yakim\project\CodeWars" />
-      <recent name="D:\lectii\yakim\project\Tekwill" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="L9" />
+      <recent name="kyu7" />
+      <recent name="" />
+      <recent name="Clase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -876,6 +858,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
@@ -970,41 +953,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia14n1/BubbleSortAdvanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia14n1/YakimClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15n1/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15n1/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15tc1/areng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15tc1/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1306,6 +1254,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/BasicOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/Max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/XO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/Universal/universal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
