@@ -1,6 +1,6 @@
 public class XO {
     public static void main(String[] args) {
-        System.out.println( getXO("avoxooxxOXo"));
+        System.out.println( getXO( "avoxooxxOXo" ) );
     }
 
     public static boolean getXO(String str) {
