@@ -1,3 +1,5 @@
+package demos.src.test.java;
+
 import org.junit.Assert;
 import org.junit.Test;
 

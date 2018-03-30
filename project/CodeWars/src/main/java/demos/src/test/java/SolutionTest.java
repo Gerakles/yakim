@@ -1,3 +1,5 @@
+package demos.src.test.java;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,7 +16,7 @@ public class SolutionTest {
     }
     @Test
     public void testNull() {
-        Assert.assertEquals( 0,Solution.kgPaint( 0,0,0 ) );
+        Assert.assertEquals( 0, Solution.kgPaint( 0,0,0 ) );
     }
     @Test
     public void testRandom() {
@@ -31,6 +33,6 @@ public class SolutionTest {
         volumeFirst = area / volumeFirst;
         volumeSecond = area / volumeSecond;
         int paint = (int) (volumeFirst + volumeSecond);
-        Assert.assertEquals( paint,Solution.kgPaint( length,width,height ) );
+        Assert.assertEquals( paint, Solution.kgPaint( length,width,height ) );
     }
 }

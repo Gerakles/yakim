@@ -3,32 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CodeWars" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/CodeWars/demos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CodeWars/src/main/java/demos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Essential" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_07-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_07-2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_07-3" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_08-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_08-2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_16-practica" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Exercise_Optional_01" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Home" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ITDVN" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Mesto_peremen" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Profesional" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tekwill" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Yakim" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia12ntc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia13n1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia14n1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia14tc2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia15n1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia15tc1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia15tc2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia8n2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lectia8n3" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lesson_12" charset="UTF-8" />
   </component>
 </project>
