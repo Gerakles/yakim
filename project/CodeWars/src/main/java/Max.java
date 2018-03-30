@@ -5,28 +5,29 @@ public class Max {
 
         int[] sumArray = new int[arr.length];
 
-        for (int i = 0; i < arr.length - max + 1; i++){
+        for (int i = 0; i < arr.length - max + 1; i++) {
             int sum = 0;
-            for (int j = i; j < i + max; j++  ){
+            for (int j = i; j < i + max; j++) {
                 sum += arr[j];
             }
             sumArray[i] = sum;
 
         }
-        System.out.println(getMax( sumArray));
+        System.out.println( getMax( sumArray ) );
 
         return getMax( sumArray );
     }
-    public static int getMax(int[] arr){
+
+    public static int getMax(int[] arr) {
         int max = 0;
-        for(int maximum : arr ){
-            if(maximum > max) max = maximum;
+        for (int maximum : arr) {
+            if (maximum > max) max = maximum;
         }
         return max;
     }
 
     public static void main(String[] args) {
-        sequence (new int[]{});
+        sequence( new int[]{} );
     }
 
 }
