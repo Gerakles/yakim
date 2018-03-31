@@ -12,8 +12,8 @@ public class ASum {
         }
 
         long sqrt = (long) Math.sqrt( i * i - 4 * b * y );
-        long yakim = (-1*i - sqrt)/ (2*b);
-        long high = (-1*i + sqrt)/(2*b);
+        long yakim = (-1 * i - sqrt) / (2 * b);
+        long high = (-1 * i + sqrt) / (2 * b);
         return yakim >= 0 ? yakim : high;
     }
 }
