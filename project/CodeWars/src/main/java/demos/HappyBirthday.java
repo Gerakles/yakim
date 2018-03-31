@@ -1,7 +1,4 @@
-import org.junit.Assert;
-
-import java.util.Random;
-import java.util.UUID;
+package demos;
 
 public class HappyBirthday {
     public static int yakim(String words) {

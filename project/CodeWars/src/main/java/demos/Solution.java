@@ -1,3 +1,5 @@
+package demos;
+
 public class Solution {
     public static int kgPaint(int length, int weight, double height) {
         double minusWindow = 0.9;
