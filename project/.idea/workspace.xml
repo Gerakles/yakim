@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/demos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/HappyBirthday.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/Yakim1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/test/java/HappyBirthdayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/test/java/Main1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/test/java/SolutionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/classes/HappyBirthday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/classes/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/classes/Yakim1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/classes/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/test-classes/HappyBirthdayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/test-classes/Main1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/test-classes/MainAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/test-classes/SolutionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/demos/target/test-classes/YakimAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,44 +116,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemovedNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/RemovedNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SumOfK.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/SumOfK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SumSquaredDivisors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/SumSquaredDivisors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java">
+      <file leaf-file-name="Consecutives.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -471,8 +418,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_06_2/Shoping.java" />
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_06_3/Team.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_07_1/indexofr.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_07_2/stringdilder.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Exercise_07_3/perevod.java" />
@@ -522,6 +467,8 @@
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/HappyBirthday.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/demos/Solution.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/C.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java" />
       </list>
     </option>
   </component>
@@ -553,7 +500,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -594,66 +540,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kyu5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="body" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Mesto_peremen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="kyu6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -726,7 +620,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="Application.Gui_yakim">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -745,10 +639,10 @@
       <module name="Mesto_peremen" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../src/project" />
     </configuration>
-    <configuration name="DbApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DbApp" />
-      <module name="auth" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../src/project" />
+    <configuration name="Gui_yakim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Gui_yakim" />
+      <module name="Yakim" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Start" />
@@ -825,19 +719,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.DbApp" />
       <item itemvalue="Application.Cli" />
       <item itemvalue="Application.demo" />
       <item itemvalue="Application.Start" />
       <item itemvalue="Application.DatBase" />
+      <item itemvalue="Application.Gui_yakim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Gui_yakim" />
         <item itemvalue="Application.DatBase" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.Cli" />
-        <item itemvalue="Application.DbApp" />
       </list>
     </recent_temporary>
   </component>
@@ -916,6 +810,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3261944" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -926,7 +821,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.19818456" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.204236" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
@@ -935,7 +830,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3261944" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
@@ -1007,6 +901,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mesto_peremen/src/main/java/service/ResourseList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1124,13 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="84" column="47" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1281,32 +1175,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/HappyBirthday.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/Yakim1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/HappyBirthday.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/demos/src/main/java/HappyBirthday.java" />
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/RemovedNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1336,6 +1206,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu6/ASum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu6/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
