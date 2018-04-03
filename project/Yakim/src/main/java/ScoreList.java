@@ -45,14 +45,15 @@ public class ScoreList {
             return name;
         }
     }
+
     private static class UserList {
         // SQLite connection string
         static final String url = "jdbc:sqlite:D://lectii/src/db/GUI_Yakim.db";
         private static UserList service = new UserList();
 
-        public List<User> findAll() {
+        public List <User> findAll() {
             String sql = "SELECT name, score FROM user";
-            List <User> users = new ArrayList<>();
+            List <User> users = new ArrayList <>();
 
             try (Connection connection = this.conect();
                  Statement statement = connection.createStatement();
@@ -107,6 +108,7 @@ public class ScoreList {
             return null;
         }
     }
+
     private class Authentification {
         public User carentUser;
 
