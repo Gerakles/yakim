@@ -18,20 +18,19 @@ public class Gui_yakim { //6.24 kb
     private JButton newGame;
     private JButton restart;
     private JFrame frame;
-    private JLabel label;
     private JPanel buttonsPanel;
     private JPanel mPanel;
 
     private Gui_yakim() {
+        Color yellow = new Color( 212, 172, 13 );
+        Color gray1 = new Color( 123, 125, 125 );
+
         frame = new JFrame( "Prototip" );
         frame.setSize( 350, 300 );
         frame.setVisible( true );
         frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
         frame.setLocationRelativeTo( null );
         frame.setLayout( new BorderLayout() );
-
-        Color yellow = new Color( 212, 172, 13 );
-        Color gray1 = new Color( 123, 125, 125 );
 
         restart = new JButton( "" );
         newGame = new JButton( "" );
@@ -116,6 +115,7 @@ public class Gui_yakim { //6.24 kb
                 gameOver.setVolumes();
                 output.append( "Answer : " + target );
                 input.setEnabled( false );
+                input.setText( "" );
             }
         }
     }

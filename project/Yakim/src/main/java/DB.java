@@ -6,7 +6,7 @@ public class DB {
     public static void main(String[] args) {
         DB app = new DB();
 //        app.createNewTable();
-//        app.insert( "Bogdan" );
+//        app.insert( "Bogdan",0 );
         app.sellectAll();
     }
 
@@ -35,12 +35,13 @@ public class DB {
         return conn;
     }
 
-    private void insert(String name) {
-        String sql = "INSERT INTO user(name) VALUES(?,?)";
+    private void insert(String name,int score) {
+        String sql = "INSERT INTO user(name,score) VALUES(?,?)";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement( sql )) {
             pstmt.setString( 1, name );
+            pstmt.setInt( 2, score );
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println( e.getMessage() );
