@@ -32,7 +32,7 @@ public class ScoreList {
         return connection;
     }
 
-    private static class User {
+    static class User {
         private String name;
         private int score;
 
