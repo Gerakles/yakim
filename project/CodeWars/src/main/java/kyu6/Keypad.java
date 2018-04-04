@@ -2,10 +2,10 @@ package kyu6;
 
 public class Keypad {
     private static final String[] yakim = {
-            "1",     "ABC2", "DEF3",
-            "GHI4",  "JKL5", "MNO6",
+            "1", "ABC2", "DEF3",
+            "GHI4", "JKL5", "MNO6",
             "PQRS7", "TUV8", "WXYZ9",
-            "*",     " 0",   "#",
+            "*", " 0", "#",
     };
 
     public static int presses(String phrase) {
