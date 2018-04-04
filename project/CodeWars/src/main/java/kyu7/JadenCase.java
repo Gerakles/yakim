@@ -17,22 +17,21 @@ package kyu7;//public class kyu7.JadenCase {
 //    }
 //
 //}
-import java.lang.Character;
 
 public class JadenCase {
 
     public String toJadenCase(String phrase) {
-        if(phrase == null || phrase.equals("")) return null;
+        if (phrase == null || phrase.equals( "" )) return null;
 
         char[] array = phrase.toCharArray();
 
-        for(int x = 0; x < array.length; x++) {
-            if(x == 0 || array[x-1] == ' ') {
-                array[x] = Character.toUpperCase(array[x]);
+        for (int x = 0; x < array.length; x++) {
+            if (x == 0 || array[x - 1] == ' ') {
+                array[x] = Character.toUpperCase( array[x] );
             }
         }
 
-        return new String(array);
+        return new String( array );
     }
 
 }
