@@ -16,6 +16,6 @@ public class Accumul {
             }
             yakim += "-";
         }
-        return yakim.substring( 0, yakim.length()-1 );
+        return yakim.substring( 0, yakim.length() - 1 );
     }
 }
