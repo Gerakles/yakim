@@ -149,7 +149,7 @@ public class Gui_yakim { //6.24 kb
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
-            
+
             try {
                 clip = AudioSystem.getClip();
                 clip.open( ais );
