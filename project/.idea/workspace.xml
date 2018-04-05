@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,16 +128,25 @@
         <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/DivSeven.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JadenCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JadenCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="340">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kata.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Kata.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -435,7 +444,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia14n1/YakimClass.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15n1/TestClass.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15tc1/TestClass.java" />
         <option value="$PROJECT_DIR$/Tekwill/src/main/java/Lectii/lectia15tc2/NodeList.java" />
@@ -486,6 +494,7 @@
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Accumul.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/DivSeven.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java" />
+        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Kata.java" />
       </list>
     </option>
   </component>
@@ -588,8 +597,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -844,7 +853,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
@@ -853,20 +861,20 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.21746293" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.21746293" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.21331316" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21633889" />
+      <window_info active="true" anchor="bottom" id="Build" order="11" visible="true" weight="0.3294893" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info x="457" y="136" width="451" height="455" id="UI Designer" order="2" type="FLOATING" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3261944" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -907,13 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../src/project/Mesto_peremen/src/main/java/body/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Leambda/Incrementer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1229,14 +1230,21 @@
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/DivSeven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="340">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Kata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
