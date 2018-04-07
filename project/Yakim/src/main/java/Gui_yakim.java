@@ -22,53 +22,53 @@ public class Gui_yakim { //6.24 kb
     private JPanel mPanel;
 
     private Gui_yakim() {
-        Color yellow = new Color( 212, 172, 13 );
-        Color gray1 = new Color( 123, 125, 125 );
+        Color yellow = new Color(212, 172, 13);
+        Color gray1 = new Color(123, 125, 125);
 
-        frame = new JFrame( "Prototip" );
-        frame.setSize( 350, 300 );
-        frame.setVisible( true );
-        frame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
-        frame.setLocationRelativeTo( null );
-        frame.setLayout( new BorderLayout() );
+        frame = new JFrame("Prototip");
+        frame.setSize(350, 300);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
+        frame.setLayout(new BorderLayout());
 
-        restart = new JButton( "" );
-        newGame = new JButton( "" );
-        restart.setBorderPainted( false );
-        restart.setFocusPainted( false );
-        restart.setBackground( gray1 );
-        newGame.setBorderPainted( false );
-        newGame.setFocusPainted( false );
-        newGame.setBackground( gray1 );
-        restart.setIcon( new ImageIcon( "Yakim/src/main/java/res/n.png" ) );
-        newGame.setIcon( new ImageIcon( "Yakim/src/main/java/res/s.png" ) );
-        newGame.addActionListener( e -> {
-            playerName = JOptionPane.showInputDialog( "Write your NickName" );
-            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
-            setVisionItems( true );
-        } );
+        restart = new JButton("");
+        newGame = new JButton("");
+        restart.setBorderPainted(false);
+        restart.setFocusPainted(false);
+        restart.setBackground(gray1);
+        newGame.setBorderPainted(false);
+        newGame.setFocusPainted(false);
+        newGame.setBackground(gray1);
+        restart.setIcon(new ImageIcon("Yakim/src/main/java/res/n.png"));
+        newGame.setIcon(new ImageIcon("Yakim/src/main/java/res/s.png"));
+        newGame.addActionListener(e -> {
+            playerName = JOptionPane.showInputDialog("Write your NickName");
+            output.setText("Player " + playerName + "\nLevel 1. Write number 1 ");
+            setVisionItems(true);
+        });
 
-        buttonsPanel = new JPanel( new BorderLayout() );
-        buttonsPanel.setLayout( new GridLayout( 1, 2 ) );
-        buttonsPanel.add( newGame );
-        frame.add( buttonsPanel, BorderLayout.NORTH );
+        buttonsPanel = new JPanel(new BorderLayout());
+        buttonsPanel.setLayout(new GridLayout(1, 2));
+        buttonsPanel.add(newGame);
+        frame.add(buttonsPanel, BorderLayout.NORTH);
 
-        input = new JTextField( 20 );
-        input.setBackground( gray1 );
-        input.setForeground( Color.WHITE );
-        frame.add( input, BorderLayout.SOUTH );
+        input = new JTextField(20);
+        input.setBackground(gray1);
+        input.setForeground(Color.WHITE);
+        frame.add(input, BorderLayout.SOUTH);
 
         mPanel = new JPanel();
-        mPanel.setLayout( new BorderLayout() );
+        mPanel.setLayout(new BorderLayout());
 
         output = new JTextArea();
-        Font font = new Font( "Arial", Font.PLAIN, 15 );
-        output.setFont( font );
-        output.setBackground( gray1 );
-        output.setForeground( yellow );
+        Font font = new Font("Arial", Font.PLAIN, 15);
+        output.setFont(font);
+        output.setBackground(gray1);
+        output.setForeground(yellow);
 
-        mPanel.add( output, BorderLayout.CENTER );
-        frame.add( mPanel, BorderLayout.CENTER );
+        mPanel.add(output, BorderLayout.CENTER);
+        frame.add(mPanel, BorderLayout.CENTER);
     }
 
     public static void main(String[] args) {
@@ -76,17 +76,17 @@ public class Gui_yakim { //6.24 kb
     }
 
     private void start() {
-        setVisionItems( false );
-        input.addActionListener( new Nums() );
-        restart.addActionListener( new Restarts() );
+        setVisionItems(false);
+        input.addActionListener(new Nums());
+        restart.addActionListener(new Restarts());
     }
 
     private void setVisionItems(boolean pass) {
-        input.setVisible( pass );
-        output.setVisible( pass );
+        input.setVisible(pass);
+        output.setVisible(pass);
 
         if (pass) {
-            buttonsPanel.add( restart, BorderLayout.EAST );
+            buttonsPanel.add(restart, BorderLayout.EAST);
         }
     }
 
@@ -94,29 +94,29 @@ public class Gui_yakim { //6.24 kb
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            applause = new Audio( "Yakim/src/main/java/res/applause.wav", 1 );
-            gameOver = new Audio( "Yakim/src/main/java/res/Game_over.wav", 1 );
+            applause = new Audio("Yakim/src/main/java/res/applause.wav", 1);
+            gameOver = new Audio("Yakim/src/main/java/res/Game_over.wav", 1);
             Random random = new Random();
-            int target = random.nextInt( iter ) + 1;
+            int target = random.nextInt(iter) + 1;
             iter++;
 
-            Integer keyValue = Integer.parseInt( input.getText() );
-            String temp = String.format( "Level %s. Write number at 1 to %s ", iter, iter );
+            Integer keyValue = Integer.parseInt(input.getText());
+            String temp = String.format("Level %s. Write number at 1 to %s ", iter, iter);
 
             if (keyValue == target) {
-                output.append( "........" + keyValue + " - Good! \n" );
-                output.append( temp );
+                output.append("........" + keyValue + " - Good! \n");
+                output.append(temp);
                 applause.sounds();
                 applause.setVolumes();
-                input.setText( "" );
+                input.setText("");
             } else {
-                output.append( "........" + keyValue + " - Game over! \n" );
+                output.append("........" + keyValue + " - Game over! \n");
                 gameOver.sounds();
                 gameOver.setVolumes();
-                output.append( "Answer : " + target );
-                input.setEnabled( false );
-                input.setText( "" );
-                ScoreList.service.createUser( playerName, iter - 1 );
+                output.append("Answer : " + target);
+                input.setEnabled(false);
+                input.setText("");
+                ScoreList.service.createUser(playerName, iter - 1);
             }
         }
     }
@@ -124,8 +124,8 @@ public class Gui_yakim { //6.24 kb
     private class Restarts implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            output.setText( "Player " + playerName + "\nLevel 1. Write number 1 " );
-            input.setEnabled( true );
+            output.setText("Player " + playerName + "\nLevel 1. Write number 1 ");
+            input.setEnabled(true);
             iter = 1;
         }
     }
@@ -142,20 +142,20 @@ public class Gui_yakim { //6.24 kb
         }
 
         private void sounds() {
-            File file = new File( this.track );
+            File file = new File(this.track);
             AudioInputStream ais = null;
             try {
-                ais = AudioSystem.getAudioInputStream( file );
+                ais = AudioSystem.getAudioInputStream(file);
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
 
             try {
                 clip = AudioSystem.getClip();
-                clip.open( ais );
-                volumes = (FloatControl) clip.getControl( FloatControl.Type.MASTER_GAIN );
+                clip.open(ais);
+                volumes = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
 
-                clip.setFramePosition( 0 );
+                clip.setFramePosition(0);
                 clip.start();
             } catch (LineUnavailableException | IOException e) {
                 e.printStackTrace();
@@ -167,7 +167,7 @@ public class Gui_yakim { //6.24 kb
             if (wt > 1) wt = 1;
             float min = volumes.getMinimum();
             float max = volumes.getMaximum();
-            volumes.setValue( (max - min) * (float) wt + min );
+            volumes.setValue((max - min) * (float) wt + min);
         }
     }
 }
