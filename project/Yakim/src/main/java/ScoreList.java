@@ -9,7 +9,7 @@ public class ScoreList {
 
     public User createUser(String name, int score) {
         String sql = "INSERT INTO user(name,score) VALUES(?,?)";
-        
+
         try (Connection connection = this.conect();
              PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setString(1, name);
