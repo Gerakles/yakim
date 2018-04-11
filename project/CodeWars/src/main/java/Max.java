@@ -13,9 +13,9 @@ public class Max {
             sumArray[i] = sum;
 
         }
-        System.out.println( getMax( sumArray ) );
+        System.out.println(getMax(sumArray));
 
-        return getMax( sumArray );
+        return getMax(sumArray);
     }
 
     public static int getMax(int[] arr) {
@@ -27,7 +27,7 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        sequence( new int[]{} );
+        sequence(new int[]{});
     }
 
 }
