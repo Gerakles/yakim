@@ -7,11 +7,11 @@ public class Personalities implements Identifity {
     protected String lastName;
 
     public Personalities(String text) {
-        String[] ordin = text.split( " " );
-        id = Integer.parseInt( ordin[0] );
+        String[] ordin = text.split(" ");
+        id = Integer.parseInt(ordin[0]);
         firstName = ordin[1];
         lastName = ordin[2];
-        age = Integer.parseInt( ordin[3] );
+        age = Integer.parseInt(ordin[3]);
     }
 
     public Personalities() {
