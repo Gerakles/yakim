@@ -116,7 +116,9 @@ public class Gui_yakim { //6.24 kb
                 output.append("Answer : " + target);
                 input.setEnabled(false);
                 input.setText("");
-                ScoreList.service.createUser(playerName, iter - 1);
+                //ScoreList.service.createUser(playerName, iter - 1);
+                DB app = new DB();
+                app.insert(playerName,iter-1);
             }
         }
     }

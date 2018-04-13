@@ -35,7 +35,7 @@ public class DB {
         return conn;
     }
 
-    private void insert(String name, int score) {
+    public void insert(String name, int score) {
         String sql = "INSERT INTO user(name,score) VALUES(?,?)";
 
         try (Connection conn = this.connect();
