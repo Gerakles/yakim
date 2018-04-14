@@ -1,7 +1,7 @@
 import java.sql.*;
 
 public class DB {
-    static final String url = "jdbc:sqlite:D://lectii/yakim/db/GUI_Yakim.db";
+    private static final String url = "jdbc:sqlite:D://lectii/yakim/db/GUI_Yakim.db";
 
     public static void main(String[] args) {
         DB app = new DB();
@@ -35,7 +35,7 @@ public class DB {
         return conn;
     }
 
-    public void insert(String name, int score) {
+    void insert(String name, int score) {
         String sql = "INSERT INTO user(name,score) VALUES(?,?)";
 
         try (Connection conn = this.connect();
