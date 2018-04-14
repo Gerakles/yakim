@@ -172,17 +172,3 @@ public class Gui_yakim { //6.24 kb
         }
     }
 }
-//    private class BestScore implements ActionListener {
-//
-//        @Override
-//        public void actionPerformed(ActionEvent e) {
-//            output.setText( "New player is\n" );
-//            input.setEnabled( true );
-//            String name = input.getText();
-//            try {
-//                TextReader.NewP( "Yakim/src/main/java/res/Gui.txt", "\n" + name + " " + iter );
-//            } catch (FileNotFoundException ep) {
-//                ep.printStackTrace();
-//            }
-//        }
-//    }
