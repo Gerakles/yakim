@@ -118,7 +118,7 @@ public class Gui_yakim { //6.24 kb
                 input.setText("");
                 //ScoreList.service.createUser(playerName, iter - 1);
                 DB app = new DB();
-                app.insert(playerName,iter-1);
+                app.insert(playerName, iter - 1);
             }
         }
     }
