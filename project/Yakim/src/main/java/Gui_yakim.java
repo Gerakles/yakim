@@ -155,7 +155,6 @@ public class Gui_yakim { //5.56 kb
     }
 
     private class Nums implements ActionListener {
-
         @Override
         public void actionPerformed(ActionEvent e) {
             applause = new Audio("Yakim/src/main/java/res/applause.wav", 1);
