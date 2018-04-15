@@ -143,7 +143,6 @@ public class Gui_yakim { //5.56 kb
             try (Connection conn = this.connect();
                  Statement stmt = conn.createStatement();
                  ResultSet rs = stmt.executeQuery(sql)) {
-
                 // loop through the result set
                 while (rs.next()) {
                     System.out.println(rs.getString("name") + "\t" +
