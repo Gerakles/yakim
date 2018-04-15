@@ -4,20 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L12/Printme.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L12/Printme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L14/ATM/myBankATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L14/ATM/myBankATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L14/reporting/CustomerReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L14/reporting/CustomerReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/res/Gui.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" afterDir="false" />
-    </list>
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -135,8 +122,8 @@
       <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="169" column="74" lean-forward="true" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="74" />
+            <state relative-caret-position="2376">
+              <caret line="161" column="41" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2559#2560#0" expanded="true" />
@@ -146,25 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myBankATM.form" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeWars/src/test/java/kyu8/SolutionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Printme.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Printme.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -511,8 +484,8 @@
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L14/ATM/myBankATM.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L12/Printme.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Printme.java" />
-        <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form" />
+        <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
       </list>
     </option>
   </component>
@@ -586,27 +559,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Profesional" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="ITDVN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Profesional" type="462c0819:PsiDirectoryNode" />
-              <item name="L10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="ITDVN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Profesional" type="462c0819:PsiDirectoryNode" />
-              <item name="L10" type="462c0819:PsiDirectoryNode" />
-              <item name="myBankATM" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -1303,17 +1255,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="169" column="74" lean-forward="true" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="74" />
+        <state relative-caret-position="2376">
+          <caret line="161" column="41" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2559#2560#0" expanded="true" />
@@ -1322,8 +1270,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form">
-      <provider selected="true" editor-type-id="ui-designer" />
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
