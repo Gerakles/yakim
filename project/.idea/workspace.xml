@@ -4,7 +4,16 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Printme.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -119,25 +128,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
-              <caret line="161" column="41" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
+            <state relative-caret-position="161">
+              <caret line="107" column="69" lean-forward="true" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2559#2560#0" expanded="true" />
-                <element signature="e#2598#2599#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printme.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java">
+      <file leaf-file-name="app.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/app.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -435,9 +451,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Yakim/src/main/java/Window.java" />
-        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Scan.java" />
-        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Polindrome.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Leambda/lambda.java" />
@@ -485,6 +498,9 @@
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L12/Printme.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Printme.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form" />
+        <option value="$PROJECT_DIR$/Demo/src/main/java/prototip/MiniGame.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java" />
+        <option value="$PROJECT_DIR$/Yakim/src/main/java/app.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
       </list>
     </option>
@@ -516,8 +532,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,11 +577,46 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Profesional" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="ITDVN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Profesional" type="462c0819:PsiDirectoryNode" />
+              <item name="L10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Yakim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Yakim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Yakim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Yakim" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,6 +636,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="L9" />
+      <recent name="kyu7" />
+      <recent name="" />
+      <recent name="Clase" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="L7" />
     </key>
@@ -600,13 +658,6 @@
       <recent name="kyu6" />
       <recent name="kyu7" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\lectii\yakim\project\CodeWars\src\main\java" />
-      <recent name="D:\lectii\yakim\project\Yakim\src\main\java" />
-      <recent name="D:\lectii\yakim\project\Yakim\src\main\java\img" />
-      <recent name="D:\lectii\yakim\project" />
-      <recent name="D:\lectii\yakim\project\CodeWars" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="L11" />
       <recent name="L10" />
@@ -619,11 +670,12 @@
       <recent name="D:\lectii\yakim\project\Profesional\src\main\java\L14" />
       <recent name="D:\lectii\yakim\project\Profesional\src\main\java\L11" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="L9" />
-      <recent name="kyu7" />
-      <recent name="" />
-      <recent name="Clase" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\lectii\yakim\project\CodeWars\src\main\java" />
+      <recent name="D:\lectii\yakim\project\Yakim\src\main\java" />
+      <recent name="D:\lectii\yakim\project\Yakim\src\main\java\img" />
+      <recent name="D:\lectii\yakim\project" />
+      <recent name="D:\lectii\yakim\project\CodeWars" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -647,20 +699,21 @@
       <module name="Yakim" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DatBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DatBase" />
-      <module name="Mesto_peremen" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../src/project" />
-    </configuration>
     <configuration name="Gui_yakim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gui_yakim" />
       <module name="Yakim" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
-      <module name="Mesto_peremen" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../src/project" />
+    <configuration name="TestReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Profesional.L9.TestReport" />
+      <module name="ITDVN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Profesional.L9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Profesional.L12.ThreadTester" />
@@ -674,6 +727,11 @@
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app" />
+      <module name="Yakim" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -738,19 +796,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Start" />
-      <item itemvalue="Application.DatBase" />
       <item itemvalue="Application.Gui_yakim" />
       <item itemvalue="Application.DB" />
       <item itemvalue="Application.ThreadTester" />
+      <item itemvalue="Application.app" />
+      <item itemvalue="Application.TestReport" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Gui_yakim" />
+        <item itemvalue="Application.app" />
+        <item itemvalue="Application.TestReport" />
         <item itemvalue="Application.ThreadTester" />
         <item itemvalue="Application.DB" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.DatBase" />
       </list>
     </recent_temporary>
   </component>
@@ -836,13 +894,12 @@
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" visible="true" weight="0.24052718" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49394855" visible="true" weight="0.24052718" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2579425" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
@@ -852,6 +909,7 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -875,7 +933,6 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
@@ -888,6 +945,7 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
     </layout-to-restore>
   </component>
@@ -920,20 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Accumul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/DivSeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/JadenCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1103,19 +1147,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/res/n.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/res/s.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,9 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,10 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,25 +1280,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java" />
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/prototip/MiniGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="161" column="41" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2559#2560#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Printme.java">
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/prototip/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L9/TestReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="107" column="69" lean-forward="true" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
