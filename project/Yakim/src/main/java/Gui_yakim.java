@@ -128,7 +128,6 @@ public class Gui_yakim { //5.56 kb
 
         private void insert(String name, int score) {
             String sql = "INSERT INTO user(name,score) VALUES(?,?)";
-
             try (Connection conn = this.connect();
                  PreparedStatement pstmt = conn.prepareStatement(sql)) {
                 pstmt.setString(1, name);
