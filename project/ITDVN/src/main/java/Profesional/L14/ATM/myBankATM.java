@@ -5,7 +5,6 @@
  */
 package Profesional.L14.ATM;
 
-import L14.domain.*;
 import Profesional.L14.domain.*;
 
 import java.awt.Component;

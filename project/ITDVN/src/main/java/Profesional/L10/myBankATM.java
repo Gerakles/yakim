@@ -1,6 +1,5 @@
 package Profesional.L10;
 
-import L9.*;
 import Profesional.L9.Bank;
 import Profesional.L9.CheckingAccount;
 import Profesional.L9.Costumer;
@@ -56,5 +55,6 @@ public class myBankATM  extends javax.swing.JFrame{  //14.356 kb
     private JTextArea historyArea;
     private JTextField statusField;
     private JButton depositButton;
+    private JButton pointbutton;
 }
 

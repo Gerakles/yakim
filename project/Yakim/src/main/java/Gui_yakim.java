@@ -56,7 +56,7 @@ public class Gui_yakim { //5.56 kb
 
         input = new JTextField(20);
         input.setBackground(gray1);
-        input.setForeground(Color.WHITE);
+        input.setForeground(Color.RED);
         frame.add(input, BorderLayout.SOUTH);
 
         mPanel = new JPanel();
@@ -68,6 +68,7 @@ public class Gui_yakim { //5.56 kb
         output.setBackground(gray1);
         output.setForeground(yellow);
 
+        mPanel.setBackground(gray1);
         mPanel.add(output, BorderLayout.CENTER);
         frame.add(mPanel, BorderLayout.CENTER);
     }
@@ -215,7 +216,6 @@ public class Gui_yakim { //5.56 kb
             } catch (UnsupportedAudioFileException | IOException e) {
                 e.printStackTrace();
             }
-
             try {
                 clip = AudioSystem.getClip();
                 clip.open(ais);

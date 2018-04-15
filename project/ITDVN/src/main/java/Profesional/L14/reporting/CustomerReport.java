@@ -1,6 +1,5 @@
 package Profesional.L14.reporting;
 
-import L14.domain.*;
 import Profesional.L14.domain.*;
 
 import java.text.DecimalFormat;
