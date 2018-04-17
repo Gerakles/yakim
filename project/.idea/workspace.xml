@@ -4,16 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Audio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$DB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Nums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim$Restarts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Gui_yakim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Printme.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -128,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="107" column="69" lean-forward="true" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+            <state relative-caret-position="348">
+              <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,20 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/app.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -499,9 +481,9 @@
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Printme.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/myBankATM.form" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/prototip/MiniGame.java" />
-        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/app.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java" />
       </list>
     </option>
   </component>
@@ -883,7 +865,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
@@ -894,7 +875,7 @@
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49394855" visible="true" weight="0.24052718" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.24052718" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -1302,27 +1283,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/app.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="107" column="69" lean-forward="true" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+        <state relative-caret-position="348">
+          <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
