@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -140,11 +142,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BublleSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BublleSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Himself.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myYear.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -442,8 +462,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java" />
-        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Leambda/lambda.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/calc2017/yakimscor.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/BasicOperations.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.kt" />
@@ -493,6 +511,8 @@
         <option value="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Profesional/L10/ChatClient.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/firstProgram.java" />
+        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java" />
+        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" />
       </list>
     </option>
   </component>
@@ -932,20 +952,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Kata2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Kata3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1277,6 +1283,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
