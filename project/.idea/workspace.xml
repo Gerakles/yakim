@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,7 +124,7 @@
       <file leaf-file-name="Gui_yakim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="2890">
               <caret line="180" column="34" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,38 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firstProgram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/firstProgram.java">
+      <file leaf-file-name="Polindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Polindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BublleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Himself.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myYear.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="457">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -462,7 +435,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/src/main/java/calc2017/yakimscor.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/BasicOperations.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.kt" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu4/GreenNumbers.java" />
@@ -513,6 +485,7 @@
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/firstProgram.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Himself.java" />
         <option value="$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java" />
+        <option value="$PROJECT_DIR$/Demo/src/main/java/practics/Polindrome.java" />
       </list>
     </option>
   </component>
@@ -543,6 +516,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -589,9 +563,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -866,20 +839,20 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.24052718" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49394855" weight="0.24052718" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.26172465" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.26928896" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
       <window_info x="457" y="136" width="451" height="455" id="UI Designer" order="2" type="FLOATING" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3261944" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -952,13 +925,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu7/Opstrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1262,27 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="180" column="34" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/firstProgram.java">
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1293,10 +1242,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/myYear.java">
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/BublleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/firstProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="180" column="34" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/src/main/java/practics/Polindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
