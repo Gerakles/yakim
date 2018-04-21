@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L3/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L3/A.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -131,17 +133,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/declaration/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ex1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example1/Ex1.java">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L2/Animal/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -150,25 +143,16 @@
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example1/Main.java">
+        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Ex2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parent.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Parent.java">
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L3/A.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -469,12 +453,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/demos/Solution.java" />
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu5/WeightSort.java" />
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/C.java" />
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Consecutives.java" />
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Kata.java" />
-        <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Kata3.java" />
         <option value="$PROJECT_DIR$/Yakim/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Kata4.java" />
         <option value="$PROJECT_DIR$/CodeWars/src/main/java/kyu6/Keypad.java" />
@@ -520,6 +498,12 @@
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example1/Ex1.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Ex2.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Parent.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Car.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Main.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Main2.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Shape.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L2/Main.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L3/A.java" />
       </list>
     </option>
   </component>
@@ -550,6 +534,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -601,25 +586,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Essential" type="462c0819:PsiDirectoryNode" />
-              <item name="L1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="ITDVN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Essential" type="462c0819:PsiDirectoryNode" />
-              <item name="L1" type="462c0819:PsiDirectoryNode" />
-              <item name="Example2" type="462c0819:PsiDirectoryNode" />
+              <item name="L3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -886,6 +859,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
@@ -899,7 +873,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4969743" weight="0.9392447" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.27760968" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3294893" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.32980332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
@@ -935,6 +909,7 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5060514" side_tool="true" weight="0.3316913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32840723" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info active="true" id="simpleUML" order="3" visible="true" weight="0.32980332" />
@@ -947,7 +922,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32784185" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.54679805" />
     </layout-to-restore>
   </component>
@@ -980,55 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/TextReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Christian_Wolff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Alan_Tiuring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu8/Kata2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu8/Kata3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu8/Kata4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/kyu8/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars/src/main/java/Universal/universal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1283,24 +1208,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="180" column="34" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/declaration/Car.java">
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Parent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example1/Ex1.java">
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Ex2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1314,14 +1229,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Ex2.java">
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example1/Ex1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/Example2/Parent.java">
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/declaration/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L1/modifires/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="180" column="34" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L2/Animal/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L3/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
