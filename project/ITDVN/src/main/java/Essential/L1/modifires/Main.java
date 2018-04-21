@@ -9,14 +9,14 @@ public class Main {
         System.out.println(shape.c);
         System.out.println(shape.b);
 
-        shape.square=24.0;                  //доступ к публик полю
+        shape.square = 24.0;                  //доступ к публик полю
         System.out.println(shape.square);
         // задаем параметры нашему объекту
         shape.getHeight();
-        shape.setHeight( 200 );
+        shape.setHeight(200);
 
         shape.getLength();
-        shape.setLength( 144 );
+        shape.setLength(144);
         //выводим объект через метод
         shape.wiieShape();
     }
