@@ -1,12 +1,12 @@
 package Essential.L1.modifires;
 
 public class Car {
-    private String model;
+    public int speed;
     protected int maxSpeed;
     int year;
-    public int speed;
+    private String model;
 
-    public Car () {
+    public Car() {
 
     }
 
@@ -20,11 +20,12 @@ public class Car {
     public int getMaxSpeed() {
         return maxSpeed;
     }
-    public String getModel() {
-        return model;
-    }
 
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
+    }
+
+    public String getModel() {
+        return model;
     }
 }
