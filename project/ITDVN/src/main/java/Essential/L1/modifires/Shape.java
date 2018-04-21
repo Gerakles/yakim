@@ -1,13 +1,13 @@
 package Essential.L1.modifires;
 
 public class Shape {
-    private int length;
-    private long height;
     public double square;
     public int i;
     public float f;
     public char c;
     public boolean b;
+    private int length;
+    private long height;
 
     public int getLength() {
         return length;
@@ -26,7 +26,7 @@ public class Shape {
     }
 
     public void wiieShape() {
-        System.out.println("Height "+ height);
-        System.out.println("Length "+length);
+        System.out.println("Height " + height);
+        System.out.println("Length " + length);
     }
 }
