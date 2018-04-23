@@ -6,7 +6,7 @@ class ConcreteClassA {
     }
 }
 
-abstract class AbstractClass extends ConcreteClassA{
+abstract class AbstractClass extends ConcreteClassA {
     public abstract void method();
 }
 
