@@ -6,11 +6,11 @@ import java.util.ListIterator;
 
 public class Main7 {
     public static void main(String[] args) {
-        ArrayList <Integer> arrayList = new ArrayList <>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
 
-        arrayList.add( 7 );
-        arrayList.add( 5 );
-        arrayList.add( 2 );
+        arrayList.add(7);
+        arrayList.add(5);
+        arrayList.add(2);
 
         Iterator<Integer> iterator = arrayList.iterator();
 
