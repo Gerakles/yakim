@@ -11,6 +11,7 @@ class DerivedClass extends BaseClass {
         System.out.println("Derived.staticMethod");
     }
 }
+
 public class Main6 {
     public static void main(String[] args) {
         BaseClass.staticMethod();
