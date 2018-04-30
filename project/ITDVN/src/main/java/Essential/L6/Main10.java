@@ -7,6 +7,7 @@ class MyClassee {
         }
     }
 }
+
 public class Main10 {
     public static void main(String[] args) {
         MyClassee.Inner insta = new MyClassee().new Inner();
