@@ -5,12 +5,14 @@ class MyClasse {
 
     public class Inner {
         MyClasse inst = new MyClasse();
+
         public void method(int a) {
             inst.field = a;
             System.out.println(inst.field);
         }
     }
 }
+
 public class Main9 {
     public static void main(String[] args) {
         MyClasse.Inner inst = new MyClasse().new Inner();
