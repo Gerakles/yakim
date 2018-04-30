@@ -8,6 +8,7 @@ class MyClass {
         }
     }
 }
+
 public class Main7 {
     public static void main(String[] args) {
         MyClass.Inner inst = new MyClass().new Inner();
