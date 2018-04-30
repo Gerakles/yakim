@@ -10,6 +10,7 @@ class MyClasses {
         }
     }
 }
+
 public class Main8 {
     public static void main(String[] args) {
         MyClasses.Inner inst = new MyClasses().new Inner();
