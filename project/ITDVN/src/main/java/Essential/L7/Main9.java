@@ -1,6 +1,7 @@
 package Essential.L7;
-enum  Days {
-    monday,teusday,wednesday,thuersday,friday,saturday,sunday
+
+enum Days {
+    monday, teusday, wednesday, thuersday, friday, saturday, sunday
 }
 
 public class Main9 {
@@ -13,10 +14,10 @@ public class Main9 {
             case saturday:
                 System.out.println("last day saturday");
                 break;
-                default:
-                    System.out.println("none");
+            default:
+                System.out.println("none");
         }
-        if (today==Days.saturday)
+        if (today == Days.saturday)
             System.out.println("finaly weekend");
     }
 }
