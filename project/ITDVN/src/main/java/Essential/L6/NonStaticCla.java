@@ -1,5 +1,6 @@
 package Essential.L6;
 
+
 public class NonStaticCla {
     public static final int Y;
 
