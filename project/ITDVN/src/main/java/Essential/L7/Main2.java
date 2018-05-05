@@ -6,7 +6,7 @@ interface Interface1 {
 
 public class Main2 {
     public static void main(String[] args) {
-        Interface1 inter = () -> System.out.println( "call method from anonimus class" );
+        Interface1 inter = () -> System.out.println("call method from anonimus class");
         System.out.println(inter.getClass().toString());
         inter.method();
     }
