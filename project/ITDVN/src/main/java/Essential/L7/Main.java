@@ -12,7 +12,7 @@ public class Main {
         Computer[] computers = {computer, computer2, mobile};
         Phone[] phones = {phone, phone2, mobile2.createPhone()};
 
-        for (Computer temp : computers ) {
+        for (Computer temp : computers) {
             temp.process();
         }
         System.out.println("----------------------");
