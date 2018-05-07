@@ -180,7 +180,7 @@ public class Gui_yakim { //5.56 kb
                 input.setEnabled(false);
                 input.setText("");
                 DB app = new DB();
-                app.insert(playerName, iter - 1);
+                app.insert(playerName, iter-1);
             }
         }
     }

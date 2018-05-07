@@ -9,7 +9,7 @@ interface Interfaces {
 public class Main4 {
     public static void main(String[] args) {
         Interfaces inter = new Interfaces() {
-            public int publiField = 3;
+            int publiField = 3;
 
             @Override
             public void method() {
@@ -22,7 +22,7 @@ public class Main4 {
                 return 0;
             }
 
-            public int getPubliField() {
+            int getPubliField() {
                 return publiField;
             }
         };

@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Alan_Tiuring {//1.01kb
 
     public static void main(String[] args) {
-        String num = null;
-        String num2 = null;
+        String num;
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String s = sc.nextLine();

@@ -7,6 +7,7 @@ public class DB {
         DB app = new DB();
 //        app.createNewTable();
 //        app.insert( "Bogdan",0 );
+        app.insert("Yakim", 6);
         app.sellectAll();
     }
 
