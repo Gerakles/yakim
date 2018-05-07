@@ -14,7 +14,7 @@ public class Main4 {
             @Override
             public void method() {
                 publiField = 1234;
-                System.out.println( "inter: publicField " + getPubliField() );
+                System.out.println("inter: publicField " + getPubliField());
             }
 
             @Override
