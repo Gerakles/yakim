@@ -4,16 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../db/GUI_Yakim.db" beforeDir="false" afterPath="$PROJECT_DIR$/../db/GUI_Yakim.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L7/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L7/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Alan_Tiuring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Alan_Tiuring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/src/main/java/Gui_yakim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/Alan_Tiuring.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/Alan_Tiuring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yakim/target/classes/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yakim/target/classes/DB.class" afterDir="false" />
-    </list>
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -840,7 +831,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
