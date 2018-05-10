@@ -2,7 +2,7 @@ package Essential.L8;
 
 class UserException extends Exception {
     public void method() {
-        System.out.println( "MyException" );
+        System.out.println("MyException");
     }
 }
 
@@ -11,7 +11,7 @@ public class Main5 {
         try {
             throw new UserException();
         } catch (UserException e) {
-            System.out.println( "exception" );
+            System.out.println("exception");
             e.method();
         }
     }
