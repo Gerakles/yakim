@@ -27,6 +27,6 @@ public class Cars {
 
     @Override
     public String toString() {
-        return String.format( "Speed is: %d\nColor is: %s",speed,color );
+        return String.format("Speed is: %d\nColor is: %s", speed, color);
     }
 }
