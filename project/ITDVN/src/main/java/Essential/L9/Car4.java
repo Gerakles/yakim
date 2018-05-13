@@ -9,10 +9,10 @@ public class Car4 {
 
     @Override
     public boolean equals(Object obj) {
-        if (this==obj) return true;
-        if (obj==null||getClass() !=obj.getClass()) return false;
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
         Car4 car = (Car4) obj;
-        if (id!=car.id) return false;
+        if (id != car.id) return false;
         return true;
     }
 }
