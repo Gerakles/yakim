@@ -10,6 +10,7 @@ public class Main {
 
 class Car extends Object {
 }
+
 class A extends Object {
     A() {
         super();
