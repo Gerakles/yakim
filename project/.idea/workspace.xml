@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main2.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2186404-61a3-446d-9ae2-6fe46378a16b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lectia_12/target/" />
@@ -138,17 +136,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main2.java">
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -449,7 +438,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L4/ex1/Bird.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L4/ex3/Main.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L4/ex4/Main.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L5/Main.java" />
@@ -500,6 +488,7 @@
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Cat.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main.java" />
         <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main2.java" />
+        <option value="$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main3.java" />
       </list>
     </option>
   </component>
@@ -849,7 +838,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294893" />
@@ -944,13 +932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L6/Main8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L6/Main9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1310,6 +1291,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITDVN/src/main/java/Essential/L9/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
