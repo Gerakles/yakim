@@ -2,21 +2,23 @@ package Essential.L12.withOutGen;
 
 public class Main {
     public static void main(String[] args) {
-        WithOutGen w1 = new WithOutGen( "test" );
-        WithOutGen w2 = new WithOutGen( 10 );
-        WithOutGen w3 = new WithOutGen( new Cat( "Marsel" ) );
+        WithOutGen w1 = new WithOutGen("test");
+        WithOutGen w2 = new WithOutGen(10);
+        WithOutGen w3 = new WithOutGen(new Cat("Marsel"));
 
         w1.display();
         w2.display();
         w3.display();
     }
 }
-class WithOutGen  {
+
+class WithOutGen {
     Object obj;
 
     public WithOutGen(Object obj) {
         this.obj = obj;
     }
+
     void display() {
         System.out.println(obj);
     }
@@ -25,6 +27,7 @@ class WithOutGen  {
         return obj;
     }
 }
+
 class Cat {
     String name;
 
