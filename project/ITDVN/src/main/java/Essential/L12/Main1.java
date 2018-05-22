@@ -8,13 +8,14 @@ class MyClass<T> {
         System.out.println(field.getClass());
     }
 }
+
 public class Main1 {
     public static void main(String[] args) {
-        MyClass<String> inst = new MyClass <>();
+        MyClass<String> inst = new MyClass<>();
         inst.field = "ABC";
         inst.method();
 
-        MyClass<Integer> inst2 = new MyClass <>();
+        MyClass<Integer> inst2 = new MyClass<>();
         inst2.field = 1234;
         inst2.method();
     }
