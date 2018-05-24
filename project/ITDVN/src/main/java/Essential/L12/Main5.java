@@ -1,14 +1,17 @@
 package Essential.L12;
 
-abstract class Shapes {
-}
-class Circles extends Shapes {
-}
 interface IContainers<T> {
     T getFigure();
 
     void setFigure(T figure);
 }
+
+abstract class Shapes {
+}
+
+class Circles extends Shapes {
+}
+
 class Containes<T> implements IContainers<T> {
     private T figure;
 
@@ -24,10 +27,11 @@ class Containes<T> implements IContainers<T> {
         this.figure = figure;
     }
 }
+
 public class Main5 {
     public static void main(String[] args) {
         Circles circle = new Circles();
-        IContainers<Shapes> container = new Containes <>( circle );
+        IContainers<Shapes> container = new Containes<>(circle);
         System.out.println(container.getFigure().toString());
     }
 }
