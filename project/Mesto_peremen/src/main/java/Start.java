@@ -1,7 +1,6 @@
 import Interfaces.Resourse;
 import body.User;
 import service.*;
-
 import java.util.Scanner;
 
 public class Start {

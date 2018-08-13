@@ -13,7 +13,6 @@ public class Gui_yakim { //5.56 kb
     private static String playerName;
     private static Audio gameOver;
     private static Audio applause;
-    private final String textFile = "Yakim/src/main/java/res/Gui.txt";
     private JTextArea output;
     private JTextField input;
     private JButton newGame;
@@ -53,7 +52,6 @@ public class Gui_yakim { //5.56 kb
         buttonsPanel.setLayout(new GridLayout(1, 2));
         buttonsPanel.add(newGame);
         frame.add(buttonsPanel, BorderLayout.NORTH);
-
         input = new JTextField(20);
         input.setBackground(gray1);
         input.setForeground(Color.RED);
@@ -97,7 +95,7 @@ public class Gui_yakim { //5.56 kb
 
         public static void main(String[] args) {
             DB app = new DB();
-//          app.createNewTable();
+          app.createNewTable();
             app.sellectAll();
         }
 
